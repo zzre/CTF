@@ -1,0 +1,3195 @@
+eunectes-murinus.pyc (Python 3.9)
+[Code]
+    File Name: chall.py
+    Object Name: <module>
+    Arg Count: 0
+    Pos Only Arg Count: 0
+    KW Only Arg Count: 0
+    Locals: 0
+    Stack Size: 2
+    Flags: 0x00000040 (CO_NOFREE)
+    [Names]
+        'fun'
+    [Var Names]
+    [Free Vars]
+    [Cell Vars]
+    [Constants]
+        [Code]
+            File Name: chall.py
+            Object Name: fun
+            Arg Count: 0
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Locals: 68
+            Stack Size: 58
+            Flags: 0x00000043 (CO_OPTIMIZED | CO_NEWLOCALS | CO_NOFREE)
+            [Names]
+                'input'
+                'encode'
+                'print'
+            [Var Names]
+                'x0'
+                'x1'
+                'x2'
+                'x3'
+                'x4'
+                'x5'
+                'x6'
+                'x7'
+                'x8'
+                'x9'
+                'x10'
+                'x11'
+                'x12'
+                'x13'
+                'x14'
+                'x15'
+                'x16'
+                'x17'
+                'x18'
+                'x19'
+                'x20'
+                'x21'
+                'x22'
+                'x23'
+                'x24'
+                'x25'
+                'x26'
+                'x27'
+                'x28'
+                'x29'
+                'x30'
+                'x31'
+                'x32'
+                'x33'
+                'x34'
+                'x35'
+                'x36'
+                'x37'
+                'x38'
+                'x39'
+                'x40'
+                'x41'
+                'x42'
+                'x43'
+                'x44'
+                'x45'
+                'x46'
+                'x47'
+                'x48'
+                'x49'
+                'x50'
+                'x51'
+                'x52'
+                'x53'
+                'x54'
+                'x55'
+                'x56'
+                'x57'
+                'akimotoite'
+                'covellite'
+                'halloysite'
+                'chalcocite'
+                'allanite'
+                'kurnakovite'
+                'fayalite'
+                'pyrophanite'
+                'aerinite'
+                'clinohumite'
+            [Free Vars]
+            [Cell Vars]
+            [Constants]
+                None
+                'flag?\n'
+                8
+                4
+                9711352
+                'Failed'
+                7
+                3
+                3764768
+                2
+                1
+                1248000
+                5
+                7452648
+                1013650
+                9
+                6
+                4860261
+                3261825
+                8149680
+                7864857
+                3276000
+                4164210
+                8704850
+                1032192
+                3647952
+                5339520
+                6170472
+                1502280
+                3364900
+                6748560
+                12196800
+                3124176
+                6128640
+                2268864
+                5192000
+                11118870
+                8096784
+                1552269
+                3495856
+                9647120
+                5918940
+                7235800
+                3025236
+                4297293
+                2639520
+                7402752
+                3299940
+                1226610
+                2203416
+                7126168
+                3797560
+                2931552
+                7210350
+                9515520
+                4667520
+                4766580
+                4752384
+                8724100
+                7598928
+                11513340
+                2756520
+                3480360
+                9152352
+                5703600
+                4238304
+                7364210
+                9332400
+                513912
+                4187610
+                6723360
+                6287120
+                5820630
+                267894
+                5790330
+                3856896
+                8967456
+                4088952
+                2394750
+                5000940
+                2127840
+                7290465
+                1362500
+                7114800
+                10142080
+                1232604
+                2585520
+                7105056
+                3534300
+                10583184
+                2751840
+                1211280
+                3785940
+                2784600
+                1983520
+                4522112
+                5868720
+                1086624
+                8488375
+                11388416
+                1118340
+                9789120
+                1435752
+                1484280
+                4688320
+                500000
+                11559600
+                10034928
+                2039400
+                10577952
+                2099160
+                9270480
+                'Success'
+            [Disassembly]
+                0       LOAD_GLOBAL             0: input
+                2       LOAD_CONST              1: 'flag?\n'
+                4       CALL_FUNCTION           1
+                6       LOAD_METHOD             1: encode
+                8       CALL_METHOD             0
+                10      UNPACK_SEQUENCE         58
+                12      STORE_FAST              0: x0
+                14      STORE_FAST              1: x1
+                16      STORE_FAST              2: x2
+                18      STORE_FAST              3: x3
+                20      STORE_FAST              4: x4
+                22      STORE_FAST              5: x5
+                24      STORE_FAST              6: x6
+                26      STORE_FAST              7: x7
+                28      STORE_FAST              8: x8
+                30      STORE_FAST              9: x9
+                32      STORE_FAST              10: x10
+                34      STORE_FAST              11: x11
+                36      STORE_FAST              12: x12
+                38      STORE_FAST              13: x13
+                40      STORE_FAST              14: x14
+                42      STORE_FAST              15: x15
+                44      STORE_FAST              16: x16
+                46      STORE_FAST              17: x17
+                48      STORE_FAST              18: x18
+                50      STORE_FAST              19: x19
+                52      STORE_FAST              20: x20
+                54      STORE_FAST              21: x21
+                56      STORE_FAST              22: x22
+                58      STORE_FAST              23: x23
+                60      STORE_FAST              24: x24
+                62      STORE_FAST              25: x25
+                64      STORE_FAST              26: x26
+                66      STORE_FAST              27: x27
+                68      STORE_FAST              28: x28
+                70      STORE_FAST              29: x29
+                72      STORE_FAST              30: x30
+                74      STORE_FAST              31: x31
+                76      STORE_FAST              32: x32
+                78      STORE_FAST              33: x33
+                80      STORE_FAST              34: x34
+                82      STORE_FAST              35: x35
+                84      STORE_FAST              36: x36
+                86      STORE_FAST              37: x37
+                88      STORE_FAST              38: x38
+                90      STORE_FAST              39: x39
+                92      STORE_FAST              40: x40
+                94      STORE_FAST              41: x41
+                96      STORE_FAST              42: x42
+                98      STORE_FAST              43: x43
+                100     STORE_FAST              44: x44
+                102     STORE_FAST              45: x45
+                104     STORE_FAST              46: x46
+                106     STORE_FAST              47: x47
+                108     STORE_FAST              48: x48
+                110     STORE_FAST              49: x49
+                112     STORE_FAST              50: x50
+                114     STORE_FAST              51: x51
+                116     STORE_FAST              52: x52
+                118     STORE_FAST              53: x53
+                120     STORE_FAST              54: x54
+                122     STORE_FAST              55: x55
+                124     STORE_FAST              56: x56
+                126     STORE_FAST              57: x57
+                128     LOAD_FAST               50: x50
+                130     DUP_TOP                 
+                132     STORE_FAST              58: akimotoite
+                134     LOAD_FAST               9: x9
+                136     DUP_TOP                 
+                138     STORE_FAST              59: covellite
+                140     LOAD_FAST               24: x24
+                142     DUP_TOP                 
+                144     STORE_FAST              60: halloysite
+                146     BUILD_TUPLE             3
+                148     POP_TOP                 
+                150     LOAD_FAST               58: akimotoite
+                152     LOAD_CONST              2: 8
+                154     BINARY_MULTIPLY         
+                156     LOAD_FAST               59: covellite
+                158     LOAD_CONST              3: 4
+                160     BINARY_SUBTRACT         
+                162     BINARY_MULTIPLY         
+                164     LOAD_FAST               60: halloysite
+                166     LOAD_CONST              3: 4
+                168     BINARY_ADD              
+                170     BINARY_MULTIPLY         
+                172     LOAD_CONST              4: 9711352
+                174     COMPARE_OP              3 (!=)
+                176     POP_JUMP_IF_FALSE       186
+                178     LOAD_GLOBAL             2: print
+                180     LOAD_CONST              5: 'Failed'
+                182     CALL_FUNCTION           1
+                184     RETURN_VALUE            
+                186     LOAD_FAST               54: x54
+                188     DUP_TOP                 
+                190     STORE_FAST              61: chalcocite
+                192     LOAD_FAST               13: x13
+                194     DUP_TOP                 
+                196     STORE_FAST              62: allanite
+                198     LOAD_FAST               35: x35
+                200     DUP_TOP                 
+                202     STORE_FAST              58: akimotoite
+                204     BUILD_TUPLE             3
+                206     POP_TOP                 
+                208     LOAD_FAST               61: chalcocite
+                210     LOAD_CONST              6: 7
+                212     BINARY_MULTIPLY         
+                214     LOAD_FAST               62: allanite
+                216     LOAD_CONST              7: 3
+                218     BINARY_SUBTRACT         
+                220     BINARY_MULTIPLY         
+                222     LOAD_FAST               58: akimotoite
+                224     LOAD_CONST              7: 3
+                226     BINARY_ADD              
+                228     BINARY_MULTIPLY         
+                230     LOAD_CONST              8: 3764768
+                232     COMPARE_OP              3 (!=)
+                234     POP_JUMP_IF_FALSE       244
+                236     LOAD_GLOBAL             2: print
+                238     LOAD_CONST              5: 'Failed'
+                240     CALL_FUNCTION           1
+                242     RETURN_VALUE            
+                244     LOAD_FAST               57: x57
+                246     DUP_TOP                 
+                248     STORE_FAST              58: akimotoite
+                250     LOAD_FAST               45: x45
+                252     DUP_TOP                 
+                254     STORE_FAST              63: kurnakovite
+                256     LOAD_FAST               19: x19
+                258     DUP_TOP                 
+                260     STORE_FAST              61: chalcocite
+                262     BUILD_TUPLE             3
+                264     POP_TOP                 
+                266     LOAD_FAST               58: akimotoite
+                268     LOAD_CONST              9: 2
+                270     BINARY_MULTIPLY         
+                272     LOAD_FAST               63: kurnakovite
+                274     LOAD_CONST              2: 8
+                276     BINARY_SUBTRACT         
+                278     BINARY_MULTIPLY         
+                280     LOAD_FAST               61: chalcocite
+                282     LOAD_CONST              10: 1
+                284     BINARY_ADD              
+                286     BINARY_MULTIPLY         
+                288     LOAD_CONST              11: 1248000
+                290     COMPARE_OP              3 (!=)
+                292     POP_JUMP_IF_FALSE       304
+                296     LOAD_GLOBAL             2: print
+                298     LOAD_CONST              5: 'Failed'
+                300     CALL_FUNCTION           1
+                302     RETURN_VALUE            
+                304     LOAD_FAST               41: x41
+                306     DUP_TOP                 
+                308     STORE_FAST              64: fayalite
+                310     LOAD_FAST               35: x35
+                312     DUP_TOP                 
+                314     STORE_FAST              59: covellite
+                316     LOAD_FAST               11: x11
+                318     DUP_TOP                 
+                320     STORE_FAST              61: chalcocite
+                322     BUILD_TUPLE             3
+                324     POP_TOP                 
+                326     LOAD_FAST               64: fayalite
+                328     LOAD_CONST              6: 7
+                330     BINARY_MULTIPLY         
+                332     LOAD_FAST               59: covellite
+                334     LOAD_CONST              9: 2
+                336     BINARY_SUBTRACT         
+                338     BINARY_MULTIPLY         
+                340     LOAD_FAST               61: chalcocite
+                342     LOAD_CONST              12: 5
+                344     BINARY_ADD              
+                346     BINARY_MULTIPLY         
+                348     LOAD_CONST              13: 7452648
+                350     COMPARE_OP              3 (!=)
+                352     POP_JUMP_IF_FALSE       364
+                356     LOAD_GLOBAL             2: print
+                358     LOAD_CONST              5: 'Failed'
+                360     CALL_FUNCTION           1
+                362     RETURN_VALUE            
+                364     LOAD_FAST               25: x25
+                366     DUP_TOP                 
+                368     STORE_FAST              64: fayalite
+                370     LOAD_FAST               27: x27
+                372     DUP_TOP                 
+                374     STORE_FAST              59: covellite
+                376     LOAD_FAST               3: x3
+                378     DUP_TOP                 
+                380     STORE_FAST              58: akimotoite
+                382     BUILD_TUPLE             3
+                384     POP_TOP                 
+                386     LOAD_FAST               64: fayalite
+                388     LOAD_CONST              10: 1
+                390     BINARY_MULTIPLY         
+                392     LOAD_FAST               59: covellite
+                394     LOAD_CONST              6: 7
+                396     BINARY_SUBTRACT         
+                398     BINARY_MULTIPLY         
+                400     LOAD_FAST               58: akimotoite
+                402     LOAD_CONST              6: 7
+                404     BINARY_ADD              
+                406     BINARY_MULTIPLY         
+                408     LOAD_CONST              14: 1013650
+                410     COMPARE_OP              3 (!=)
+                412     POP_JUMP_IF_FALSE       424
+                416     LOAD_GLOBAL             2: print
+                418     LOAD_CONST              5: 'Failed'
+                420     CALL_FUNCTION           1
+                422     RETURN_VALUE            
+                424     LOAD_FAST               54: x54
+                426     DUP_TOP                 
+                428     STORE_FAST              62: allanite
+                430     LOAD_FAST               41: x41
+                432     DUP_TOP                 
+                434     STORE_FAST              59: covellite
+                436     LOAD_FAST               31: x31
+                438     DUP_TOP                 
+                440     STORE_FAST              58: akimotoite
+                442     BUILD_TUPLE             3
+                444     POP_TOP                 
+                446     LOAD_FAST               62: allanite
+                448     LOAD_CONST              15: 9
+                450     BINARY_MULTIPLY         
+                452     LOAD_FAST               59: covellite
+                454     LOAD_CONST              12: 5
+                456     BINARY_SUBTRACT         
+                458     BINARY_MULTIPLY         
+                460     LOAD_FAST               58: akimotoite
+                462     LOAD_CONST              16: 6
+                464     BINARY_ADD              
+                466     BINARY_MULTIPLY         
+                468     LOAD_CONST              17: 4860261
+                470     COMPARE_OP              3 (!=)
+                472     POP_JUMP_IF_FALSE       484
+                476     LOAD_GLOBAL             2: print
+                478     LOAD_CONST              5: 'Failed'
+                480     CALL_FUNCTION           1
+                482     RETURN_VALUE            
+                484     LOAD_FAST               12: x12
+                486     DUP_TOP                 
+                488     STORE_FAST              59: covellite
+                490     LOAD_FAST               24: x24
+                492     DUP_TOP                 
+                494     STORE_FAST              63: kurnakovite
+                496     LOAD_FAST               50: x50
+                498     DUP_TOP                 
+                500     STORE_FAST              65: pyrophanite
+                502     BUILD_TUPLE             3
+                504     POP_TOP                 
+                506     LOAD_FAST               59: covellite
+                508     LOAD_CONST              7: 3
+                510     BINARY_MULTIPLY         
+                512     LOAD_FAST               63: kurnakovite
+                514     LOAD_CONST              16: 6
+                516     BINARY_SUBTRACT         
+                518     BINARY_MULTIPLY         
+                520     LOAD_FAST               65: pyrophanite
+                522     LOAD_CONST              3: 4
+                524     BINARY_ADD              
+                526     BINARY_MULTIPLY         
+                528     LOAD_CONST              18: 3261825
+                530     COMPARE_OP              3 (!=)
+                532     POP_JUMP_IF_FALSE       544
+                536     LOAD_GLOBAL             2: print
+                538     LOAD_CONST              5: 'Failed'
+                540     CALL_FUNCTION           1
+                542     RETURN_VALUE            
+                544     LOAD_FAST               23: x23
+                546     DUP_TOP                 
+                548     STORE_FAST              65: pyrophanite
+                550     LOAD_FAST               19: x19
+                552     DUP_TOP                 
+                554     STORE_FAST              66: aerinite
+                556     LOAD_FAST               8: x8
+                558     DUP_TOP                 
+                560     STORE_FAST              59: covellite
+                562     BUILD_TUPLE             3
+                564     POP_TOP                 
+                566     LOAD_FAST               65: pyrophanite
+                568     LOAD_CONST              6: 7
+                570     BINARY_MULTIPLY         
+                572     LOAD_FAST               66: aerinite
+                574     LOAD_CONST              3: 4
+                576     BINARY_SUBTRACT         
+                578     BINARY_MULTIPLY         
+                580     LOAD_FAST               59: covellite
+                582     LOAD_CONST              15: 9
+                584     BINARY_ADD              
+                586     BINARY_MULTIPLY         
+                588     LOAD_CONST              19: 8149680
+                590     COMPARE_OP              3 (!=)
+                592     POP_JUMP_IF_FALSE       604
+                596     LOAD_GLOBAL             2: print
+                598     LOAD_CONST              5: 'Failed'
+                600     CALL_FUNCTION           1
+                602     RETURN_VALUE            
+                604     LOAD_FAST               39: x39
+                606     DUP_TOP                 
+                608     STORE_FAST              66: aerinite
+                610     LOAD_FAST               50: x50
+                612     DUP_TOP                 
+                614     STORE_FAST              61: chalcocite
+                616     LOAD_FAST               56: x56
+                618     DUP_TOP                 
+                620     STORE_FAST              67: clinohumite
+                622     BUILD_TUPLE             3
+                624     POP_TOP                 
+                626     LOAD_FAST               66: aerinite
+                628     LOAD_CONST              6: 7
+                630     BINARY_MULTIPLY         
+                632     LOAD_FAST               61: chalcocite
+                634     LOAD_CONST              3: 4
+                636     BINARY_SUBTRACT         
+                638     BINARY_MULTIPLY         
+                640     LOAD_FAST               67: clinohumite
+                642     LOAD_CONST              10: 1
+                644     BINARY_ADD              
+                646     BINARY_MULTIPLY         
+                648     LOAD_CONST              20: 7864857
+                650     COMPARE_OP              3 (!=)
+                652     POP_JUMP_IF_FALSE       664
+                656     LOAD_GLOBAL             2: print
+                658     LOAD_CONST              5: 'Failed'
+                660     CALL_FUNCTION           1
+                662     RETURN_VALUE            
+                664     LOAD_FAST               45: x45
+                666     DUP_TOP                 
+                668     STORE_FAST              65: pyrophanite
+                670     LOAD_FAST               56: x56
+                672     DUP_TOP                 
+                674     STORE_FAST              60: halloysite
+                676     LOAD_FAST               57: x57
+                678     DUP_TOP                 
+                680     STORE_FAST              58: akimotoite
+                682     BUILD_TUPLE             3
+                684     POP_TOP                 
+                686     LOAD_FAST               65: pyrophanite
+                688     LOAD_CONST              12: 5
+                690     BINARY_MULTIPLY         
+                692     LOAD_FAST               60: halloysite
+                694     LOAD_CONST              2: 8
+                696     BINARY_SUBTRACT         
+                698     BINARY_MULTIPLY         
+                700     LOAD_FAST               58: akimotoite
+                702     LOAD_CONST              12: 5
+                704     BINARY_ADD              
+                706     BINARY_MULTIPLY         
+                708     LOAD_CONST              21: 3276000
+                710     COMPARE_OP              3 (!=)
+                712     POP_JUMP_IF_FALSE       724
+                716     LOAD_GLOBAL             2: print
+                718     LOAD_CONST              5: 'Failed'
+                720     CALL_FUNCTION           1
+                722     RETURN_VALUE            
+                724     LOAD_FAST               7: x7
+                726     DUP_TOP                 
+                728     STORE_FAST              62: allanite
+                730     LOAD_FAST               47: x47
+                732     DUP_TOP                 
+                734     STORE_FAST              65: pyrophanite
+                736     LOAD_FAST               23: x23
+                738     DUP_TOP                 
+                740     STORE_FAST              58: akimotoite
+                742     BUILD_TUPLE             3
+                744     POP_TOP                 
+                746     LOAD_FAST               62: allanite
+                748     LOAD_CONST              15: 9
+                750     BINARY_MULTIPLY         
+                752     LOAD_FAST               65: pyrophanite
+                754     LOAD_CONST              15: 9
+                756     BINARY_SUBTRACT         
+                758     BINARY_MULTIPLY         
+                760     LOAD_FAST               58: akimotoite
+                762     LOAD_CONST              10: 1
+                764     BINARY_ADD              
+                766     BINARY_MULTIPLY         
+                768     LOAD_CONST              22: 4164210
+                770     COMPARE_OP              3 (!=)
+                772     POP_JUMP_IF_FALSE       784
+                776     LOAD_GLOBAL             2: print
+                778     LOAD_CONST              5: 'Failed'
+                780     CALL_FUNCTION           1
+                782     RETURN_VALUE            
+                784     LOAD_FAST               20: x20
+                786     DUP_TOP                 
+                788     STORE_FAST              60: halloysite
+                790     LOAD_FAST               43: x43
+                792     DUP_TOP                 
+                794     STORE_FAST              67: clinohumite
+                796     LOAD_FAST               5: x5
+                798     DUP_TOP                 
+                800     STORE_FAST              65: pyrophanite
+                802     BUILD_TUPLE             3
+                804     POP_TOP                 
+                806     LOAD_FAST               60: halloysite
+                808     LOAD_CONST              6: 7
+                810     BINARY_MULTIPLY         
+                812     LOAD_FAST               67: clinohumite
+                814     LOAD_CONST              9: 2
+                816     BINARY_SUBTRACT         
+                818     BINARY_MULTIPLY         
+                820     LOAD_FAST               65: pyrophanite
+                822     LOAD_CONST              12: 5
+                824     BINARY_ADD              
+                826     BINARY_MULTIPLY         
+                828     LOAD_CONST              23: 8704850
+                830     COMPARE_OP              3 (!=)
+                832     POP_JUMP_IF_FALSE       844
+                836     LOAD_GLOBAL             2: print
+                838     LOAD_CONST              5: 'Failed'
+                840     CALL_FUNCTION           1
+                842     RETURN_VALUE            
+                844     LOAD_FAST               45: x45
+                846     DUP_TOP                 
+                848     STORE_FAST              67: clinohumite
+                850     LOAD_FAST               52: x52
+                852     DUP_TOP                 
+                854     STORE_FAST              63: kurnakovite
+                856     LOAD_FAST               45: x45
+                858     DUP_TOP                 
+                860     STORE_FAST              59: covellite
+                862     BUILD_TUPLE             3
+                864     POP_TOP                 
+                866     LOAD_FAST               67: clinohumite
+                868     LOAD_CONST              16: 6
+                870     BINARY_MULTIPLY         
+                872     LOAD_FAST               63: kurnakovite
+                874     LOAD_CONST              10: 1
+                876     BINARY_SUBTRACT         
+                878     BINARY_MULTIPLY         
+                880     LOAD_FAST               59: covellite
+                882     LOAD_CONST              2: 8
+                884     BINARY_ADD              
+                886     BINARY_MULTIPLY         
+                888     LOAD_CONST              24: 1032192
+                890     COMPARE_OP              3 (!=)
+                892     POP_JUMP_IF_FALSE       904
+                896     LOAD_GLOBAL             2: print
+                898     LOAD_CONST              5: 'Failed'
+                900     CALL_FUNCTION           1
+                902     RETURN_VALUE            
+                904     LOAD_FAST               46: x46
+                906     DUP_TOP                 
+                908     STORE_FAST              66: aerinite
+                910     LOAD_FAST               45: x45
+                912     DUP_TOP                 
+                914     STORE_FAST              62: allanite
+                916     LOAD_FAST               44: x44
+                918     DUP_TOP                 
+                920     STORE_FAST              63: kurnakovite
+                922     BUILD_TUPLE             3
+                924     POP_TOP                 
+                926     LOAD_FAST               66: aerinite
+                928     LOAD_CONST              2: 8
+                930     BINARY_MULTIPLY         
+                932     LOAD_FAST               62: allanite
+                934     LOAD_CONST              15: 9
+                936     BINARY_SUBTRACT         
+                938     BINARY_MULTIPLY         
+                940     LOAD_FAST               63: kurnakovite
+                942     LOAD_CONST              3: 4
+                944     BINARY_ADD              
+                946     BINARY_MULTIPLY         
+                948     LOAD_CONST              25: 3647952
+                950     COMPARE_OP              3 (!=)
+                952     POP_JUMP_IF_FALSE       964
+                956     LOAD_GLOBAL             2: print
+                958     LOAD_CONST              5: 'Failed'
+                960     CALL_FUNCTION           1
+                962     RETURN_VALUE            
+                964     LOAD_FAST               29: x29
+                966     DUP_TOP                 
+                968     STORE_FAST              65: pyrophanite
+                970     LOAD_FAST               32: x32
+                972     DUP_TOP                 
+                974     STORE_FAST              63: kurnakovite
+                976     LOAD_FAST               44: x44
+                978     DUP_TOP                 
+                980     STORE_FAST              59: covellite
+                982     BUILD_TUPLE             3
+                984     POP_TOP                 
+                986     LOAD_FAST               65: pyrophanite
+                988     LOAD_CONST              12: 5
+                990     BINARY_MULTIPLY         
+                992     LOAD_FAST               63: kurnakovite
+                994     LOAD_CONST              6: 7
+                996     BINARY_SUBTRACT         
+                998     BINARY_MULTIPLY         
+                1000    LOAD_FAST               59: covellite
+                1002    LOAD_CONST              10: 1
+                1004    BINARY_ADD              
+                1006    BINARY_MULTIPLY         
+                1008    LOAD_CONST              26: 5339520
+                1010    COMPARE_OP              3 (!=)
+                1012    POP_JUMP_IF_FALSE       1024
+                1016    LOAD_GLOBAL             2: print
+                1018    LOAD_CONST              5: 'Failed'
+                1020    CALL_FUNCTION           1
+                1022    RETURN_VALUE            
+                1024    LOAD_FAST               53: x53
+                1026    DUP_TOP                 
+                1028    STORE_FAST              59: covellite
+                1030    LOAD_FAST               33: x33
+                1032    DUP_TOP                 
+                1034    STORE_FAST              58: akimotoite
+                1036    LOAD_FAST               9: x9
+                1038    DUP_TOP                 
+                1040    STORE_FAST              63: kurnakovite
+                1042    BUILD_TUPLE             3
+                1044    POP_TOP                 
+                1046    LOAD_FAST               59: covellite
+                1048    LOAD_CONST              16: 6
+                1050    BINARY_MULTIPLY         
+                1052    LOAD_FAST               58: akimotoite
+                1054    LOAD_CONST              3: 4
+                1056    BINARY_SUBTRACT         
+                1058    BINARY_MULTIPLY         
+                1060    LOAD_FAST               63: kurnakovite
+                1062    LOAD_CONST              10: 1
+                1064    BINARY_ADD              
+                1066    BINARY_MULTIPLY         
+                1068    LOAD_CONST              27: 6170472
+                1070    COMPARE_OP              3 (!=)
+                1072    POP_JUMP_IF_FALSE       1084
+                1076    LOAD_GLOBAL             2: print
+                1078    LOAD_CONST              5: 'Failed'
+                1080    CALL_FUNCTION           1
+                1082    RETURN_VALUE            
+                1084    LOAD_FAST               15: x15
+                1086    DUP_TOP                 
+                1088    STORE_FAST              63: kurnakovite
+                1090    LOAD_FAST               42: x42
+                1092    DUP_TOP                 
+                1094    STORE_FAST              62: allanite
+                1096    LOAD_FAST               4: x4
+                1098    DUP_TOP                 
+                1100    STORE_FAST              59: covellite
+                1102    BUILD_TUPLE             3
+                1104    POP_TOP                 
+                1106    LOAD_FAST               63: kurnakovite
+                1108    LOAD_CONST              10: 1
+                1110    BINARY_MULTIPLY         
+                1112    LOAD_FAST               62: allanite
+                1114    LOAD_CONST              10: 1
+                1116    BINARY_SUBTRACT         
+                1118    BINARY_MULTIPLY         
+                1120    LOAD_FAST               59: covellite
+                1122    LOAD_CONST              6: 7
+                1124    BINARY_ADD              
+                1126    BINARY_MULTIPLY         
+                1128    LOAD_CONST              28: 1502280
+                1130    COMPARE_OP              3 (!=)
+                1132    POP_JUMP_IF_FALSE       1144
+                1136    LOAD_GLOBAL             2: print
+                1138    LOAD_CONST              5: 'Failed'
+                1140    CALL_FUNCTION           1
+                1142    RETURN_VALUE            
+                1144    LOAD_FAST               12: x12
+                1146    DUP_TOP                 
+                1148    STORE_FAST              61: chalcocite
+                1150    LOAD_FAST               54: x54
+                1152    DUP_TOP                 
+                1154    STORE_FAST              59: covellite
+                1156    LOAD_FAST               1: x1
+                1158    DUP_TOP                 
+                1160    STORE_FAST              66: aerinite
+                1162    BUILD_TUPLE             3
+                1164    POP_TOP                 
+                1166    LOAD_FAST               61: chalcocite
+                1168    LOAD_CONST              6: 7
+                1170    BINARY_MULTIPLY         
+                1172    LOAD_FAST               59: covellite
+                1174    LOAD_CONST              7: 3
+                1176    BINARY_SUBTRACT         
+                1178    BINARY_MULTIPLY         
+                1180    LOAD_FAST               66: aerinite
+                1182    LOAD_CONST              9: 2
+                1184    BINARY_ADD              
+                1186    BINARY_MULTIPLY         
+                1188    LOAD_CONST              29: 3364900
+                1190    COMPARE_OP              3 (!=)
+                1192    POP_JUMP_IF_FALSE       1204
+                1196    LOAD_GLOBAL             2: print
+                1198    LOAD_CONST              5: 'Failed'
+                1200    CALL_FUNCTION           1
+                1202    RETURN_VALUE            
+                1204    LOAD_FAST               19: x19
+                1206    DUP_TOP                 
+                1208    STORE_FAST              58: akimotoite
+                1210    LOAD_FAST               24: x24
+                1212    DUP_TOP                 
+                1214    STORE_FAST              63: kurnakovite
+                1216    LOAD_FAST               45: x45
+                1218    DUP_TOP                 
+                1220    STORE_FAST              67: clinohumite
+                1222    BUILD_TUPLE             3
+                1224    POP_TOP                 
+                1226    LOAD_FAST               58: akimotoite
+                1228    LOAD_CONST              15: 9
+                1230    BINARY_MULTIPLY         
+                1232    LOAD_FAST               63: kurnakovite
+                1234    LOAD_CONST              7: 3
+                1236    BINARY_SUBTRACT         
+                1238    BINARY_MULTIPLY         
+                1240    LOAD_FAST               67: clinohumite
+                1242    LOAD_CONST              15: 9
+                1244    BINARY_ADD              
+                1246    BINARY_MULTIPLY         
+                1248    LOAD_CONST              30: 6748560
+                1250    COMPARE_OP              3 (!=)
+                1252    POP_JUMP_IF_FALSE       1264
+                1256    LOAD_GLOBAL             2: print
+                1258    LOAD_CONST              5: 'Failed'
+                1260    CALL_FUNCTION           1
+                1262    RETURN_VALUE            
+                1264    LOAD_FAST               32: x32
+                1266    DUP_TOP                 
+                1268    STORE_FAST              67: clinohumite
+                1270    LOAD_FAST               43: x43
+                1272    DUP_TOP                 
+                1274    STORE_FAST              58: akimotoite
+                1276    LOAD_FAST               8: x8
+                1278    DUP_TOP                 
+                1280    STORE_FAST              62: allanite
+                1282    BUILD_TUPLE             3
+                1284    POP_TOP                 
+                1286    LOAD_FAST               67: clinohumite
+                1288    LOAD_CONST              15: 9
+                1290    BINARY_MULTIPLY         
+                1292    LOAD_FAST               58: akimotoite
+                1294    LOAD_CONST              15: 9
+                1296    BINARY_SUBTRACT         
+                1298    BINARY_MULTIPLY         
+                1300    LOAD_FAST               62: allanite
+                1302    LOAD_CONST              6: 7
+                1304    BINARY_ADD              
+                1306    BINARY_MULTIPLY         
+                1308    LOAD_CONST              31: 12196800
+                1310    COMPARE_OP              3 (!=)
+                1312    POP_JUMP_IF_FALSE       1324
+                1316    LOAD_GLOBAL             2: print
+                1318    LOAD_CONST              5: 'Failed'
+                1320    CALL_FUNCTION           1
+                1322    RETURN_VALUE            
+                1324    LOAD_FAST               28: x28
+                1326    DUP_TOP                 
+                1328    STORE_FAST              60: halloysite
+                1330    LOAD_FAST               35: x35
+                1332    DUP_TOP                 
+                1334    STORE_FAST              64: fayalite
+                1336    LOAD_FAST               47: x47
+                1338    DUP_TOP                 
+                1340    STORE_FAST              58: akimotoite
+                1342    BUILD_TUPLE             3
+                1344    POP_TOP                 
+                1346    LOAD_FAST               60: halloysite
+                1348    LOAD_CONST              16: 6
+                1350    BINARY_MULTIPLY         
+                1352    LOAD_FAST               64: fayalite
+                1354    LOAD_CONST              6: 7
+                1356    BINARY_SUBTRACT         
+                1358    BINARY_MULTIPLY         
+                1360    LOAD_FAST               58: akimotoite
+                1362    LOAD_CONST              6: 7
+                1364    BINARY_ADD              
+                1366    BINARY_MULTIPLY         
+                1368    LOAD_CONST              32: 3124176
+                1370    COMPARE_OP              3 (!=)
+                1372    POP_JUMP_IF_FALSE       1384
+                1376    LOAD_GLOBAL             2: print
+                1378    LOAD_CONST              5: 'Failed'
+                1380    CALL_FUNCTION           1
+                1382    RETURN_VALUE            
+                1384    LOAD_FAST               25: x25
+                1386    DUP_TOP                 
+                1388    STORE_FAST              65: pyrophanite
+                1390    LOAD_FAST               3: x3
+                1392    DUP_TOP                 
+                1394    STORE_FAST              64: fayalite
+                1396    LOAD_FAST               18: x18
+                1398    DUP_TOP                 
+                1400    STORE_FAST              59: covellite
+                1402    BUILD_TUPLE             3
+                1404    POP_TOP                 
+                1406    LOAD_FAST               65: pyrophanite
+                1408    LOAD_CONST              16: 6
+                1410    BINARY_MULTIPLY         
+                1412    LOAD_FAST               64: fayalite
+                1414    LOAD_CONST              6: 7
+                1416    BINARY_SUBTRACT         
+                1418    BINARY_MULTIPLY         
+                1420    LOAD_FAST               59: covellite
+                1422    LOAD_CONST              9: 2
+                1424    BINARY_ADD              
+                1426    BINARY_MULTIPLY         
+                1428    LOAD_CONST              33: 6128640
+                1430    COMPARE_OP              3 (!=)
+                1432    POP_JUMP_IF_FALSE       1444
+                1436    LOAD_GLOBAL             2: print
+                1438    LOAD_CONST              5: 'Failed'
+                1440    CALL_FUNCTION           1
+                1442    RETURN_VALUE            
+                1444    LOAD_FAST               11: x11
+                1446    DUP_TOP                 
+                1448    STORE_FAST              58: akimotoite
+                1450    LOAD_FAST               30: x30
+                1452    DUP_TOP                 
+                1454    STORE_FAST              62: allanite
+                1456    LOAD_FAST               0: x0
+                1458    DUP_TOP                 
+                1460    STORE_FAST              61: chalcocite
+                1462    BUILD_TUPLE             3
+                1464    POP_TOP                 
+                1466    LOAD_FAST               58: akimotoite
+                1468    LOAD_CONST              9: 2
+                1470    BINARY_MULTIPLY         
+                1472    LOAD_FAST               62: allanite
+                1474    LOAD_CONST              3: 4
+                1476    BINARY_SUBTRACT         
+                1478    BINARY_MULTIPLY         
+                1480    LOAD_FAST               61: chalcocite
+                1482    LOAD_CONST              16: 6
+                1484    BINARY_ADD              
+                1486    BINARY_MULTIPLY         
+                1488    LOAD_CONST              34: 2268864
+                1490    COMPARE_OP              3 (!=)
+                1492    POP_JUMP_IF_FALSE       1504
+                1496    LOAD_GLOBAL             2: print
+                1498    LOAD_CONST              5: 'Failed'
+                1500    CALL_FUNCTION           1
+                1502    RETURN_VALUE            
+                1504    LOAD_FAST               16: x16
+                1506    DUP_TOP                 
+                1508    STORE_FAST              67: clinohumite
+                1510    LOAD_FAST               21: x21
+                1512    DUP_TOP                 
+                1514    STORE_FAST              65: pyrophanite
+                1516    LOAD_FAST               25: x25
+                1518    DUP_TOP                 
+                1520    STORE_FAST              64: fayalite
+                1522    BUILD_TUPLE             3
+                1524    POP_TOP                 
+                1526    LOAD_FAST               67: clinohumite
+                1528    LOAD_CONST              3: 4
+                1530    BINARY_MULTIPLY         
+                1532    LOAD_FAST               65: pyrophanite
+                1534    LOAD_CONST              16: 6
+                1536    BINARY_SUBTRACT         
+                1538    BINARY_MULTIPLY         
+                1540    LOAD_FAST               64: fayalite
+                1542    LOAD_CONST              12: 5
+                1544    BINARY_ADD              
+                1546    BINARY_MULTIPLY         
+                1548    LOAD_CONST              35: 5192000
+                1550    COMPARE_OP              3 (!=)
+                1552    POP_JUMP_IF_FALSE       1564
+                1556    LOAD_GLOBAL             2: print
+                1558    LOAD_CONST              5: 'Failed'
+                1560    CALL_FUNCTION           1
+                1562    RETURN_VALUE            
+                1564    LOAD_FAST               9: x9
+                1566    DUP_TOP                 
+                1568    STORE_FAST              61: chalcocite
+                1570    LOAD_FAST               39: x39
+                1572    DUP_TOP                 
+                1574    STORE_FAST              60: halloysite
+                1576    LOAD_FAST               46: x46
+                1578    DUP_TOP                 
+                1580    STORE_FAST              64: fayalite
+                1582    BUILD_TUPLE             3
+                1584    POP_TOP                 
+                1586    LOAD_FAST               61: chalcocite
+                1588    LOAD_CONST              15: 9
+                1590    BINARY_MULTIPLY         
+                1592    LOAD_FAST               60: halloysite
+                1594    LOAD_CONST              16: 6
+                1596    BINARY_SUBTRACT         
+                1598    BINARY_MULTIPLY         
+                1600    LOAD_FAST               64: fayalite
+                1602    LOAD_CONST              2: 8
+                1604    BINARY_ADD              
+                1606    BINARY_MULTIPLY         
+                1608    LOAD_CONST              36: 11118870
+                1610    COMPARE_OP              3 (!=)
+                1612    POP_JUMP_IF_FALSE       1624
+                1616    LOAD_GLOBAL             2: print
+                1618    LOAD_CONST              5: 'Failed'
+                1620    CALL_FUNCTION           1
+                1622    RETURN_VALUE            
+                1624    LOAD_FAST               37: x37
+                1626    DUP_TOP                 
+                1628    STORE_FAST              65: pyrophanite
+                1630    LOAD_FAST               46: x46
+                1632    DUP_TOP                 
+                1634    STORE_FAST              62: allanite
+                1636    LOAD_FAST               6: x6
+                1638    DUP_TOP                 
+                1640    STORE_FAST              63: kurnakovite
+                1642    BUILD_TUPLE             3
+                1644    POP_TOP                 
+                1646    LOAD_FAST               65: pyrophanite
+                1648    LOAD_CONST              2: 8
+                1650    BINARY_MULTIPLY         
+                1652    LOAD_FAST               62: allanite
+                1654    LOAD_CONST              3: 4
+                1656    BINARY_SUBTRACT         
+                1658    BINARY_MULTIPLY         
+                1660    LOAD_FAST               63: kurnakovite
+                1662    LOAD_CONST              9: 2
+                1664    BINARY_ADD              
+                1666    BINARY_MULTIPLY         
+                1668    LOAD_CONST              37: 8096784
+                1670    COMPARE_OP              3 (!=)
+                1672    POP_JUMP_IF_FALSE       1684
+                1676    LOAD_GLOBAL             2: print
+                1678    LOAD_CONST              5: 'Failed'
+                1680    CALL_FUNCTION           1
+                1682    RETURN_VALUE            
+                1684    LOAD_FAST               50: x50
+                1686    DUP_TOP                 
+                1688    STORE_FAST              63: kurnakovite
+                1690    LOAD_FAST               45: x45
+                1692    DUP_TOP                 
+                1694    STORE_FAST              60: halloysite
+                1696    LOAD_FAST               19: x19
+                1698    DUP_TOP                 
+                1700    STORE_FAST              66: aerinite
+                1702    BUILD_TUPLE             3
+                1704    POP_TOP                 
+                1706    LOAD_FAST               63: kurnakovite
+                1708    LOAD_CONST              7: 3
+                1710    BINARY_MULTIPLY         
+                1712    LOAD_FAST               60: halloysite
+                1714    LOAD_CONST              15: 9
+                1716    BINARY_SUBTRACT         
+                1718    BINARY_MULTIPLY         
+                1720    LOAD_FAST               66: aerinite
+                1722    LOAD_CONST              16: 6
+                1724    BINARY_ADD              
+                1726    BINARY_MULTIPLY         
+                1728    LOAD_CONST              38: 1552269
+                1730    COMPARE_OP              3 (!=)
+                1732    POP_JUMP_IF_FALSE       1744
+                1736    LOAD_GLOBAL             2: print
+                1738    LOAD_CONST              5: 'Failed'
+                1740    CALL_FUNCTION           1
+                1742    RETURN_VALUE            
+                1744    LOAD_FAST               52: x52
+                1746    DUP_TOP                 
+                1748    STORE_FAST              58: akimotoite
+                1750    LOAD_FAST               22: x22
+                1752    DUP_TOP                 
+                1754    STORE_FAST              65: pyrophanite
+                1756    LOAD_FAST               31: x31
+                1758    DUP_TOP                 
+                1760    STORE_FAST              67: clinohumite
+                1762    BUILD_TUPLE             3
+                1764    POP_TOP                 
+                1766    LOAD_FAST               58: akimotoite
+                1768    LOAD_CONST              6: 7
+                1770    BINARY_MULTIPLY         
+                1772    LOAD_FAST               65: pyrophanite
+                1774    LOAD_CONST              16: 6
+                1776    BINARY_SUBTRACT         
+                1778    BINARY_MULTIPLY         
+                1780    LOAD_FAST               67: clinohumite
+                1782    LOAD_CONST              7: 3
+                1784    BINARY_ADD              
+                1786    BINARY_MULTIPLY         
+                1788    LOAD_CONST              39: 3495856
+                1790    COMPARE_OP              3 (!=)
+                1792    POP_JUMP_IF_FALSE       1804
+                1796    LOAD_GLOBAL             2: print
+                1798    LOAD_CONST              5: 'Failed'
+                1800    CALL_FUNCTION           1
+                1802    RETURN_VALUE            
+                1804    LOAD_FAST               53: x53
+                1806    DUP_TOP                 
+                1808    STORE_FAST              66: aerinite
+                1810    LOAD_FAST               32: x32
+                1812    DUP_TOP                 
+                1814    STORE_FAST              61: chalcocite
+                1816    LOAD_FAST               30: x30
+                1818    DUP_TOP                 
+                1820    STORE_FAST              63: kurnakovite
+                1822    BUILD_TUPLE             3
+                1824    POP_TOP                 
+                1826    LOAD_FAST               66: aerinite
+                1828    LOAD_CONST              2: 8
+                1830    BINARY_MULTIPLY         
+                1832    LOAD_FAST               61: chalcocite
+                1834    LOAD_CONST              7: 3
+                1836    BINARY_SUBTRACT         
+                1838    BINARY_MULTIPLY         
+                1840    LOAD_FAST               63: kurnakovite
+                1842    LOAD_CONST              6: 7
+                1844    BINARY_ADD              
+                1846    BINARY_MULTIPLY         
+                1848    LOAD_CONST              40: 9647120
+                1850    COMPARE_OP              3 (!=)
+                1852    POP_JUMP_IF_FALSE       1864
+                1856    LOAD_GLOBAL             2: print
+                1858    LOAD_CONST              5: 'Failed'
+                1860    CALL_FUNCTION           1
+                1862    RETURN_VALUE            
+                1864    LOAD_FAST               28: x28
+                1866    DUP_TOP                 
+                1868    STORE_FAST              65: pyrophanite
+                1870    LOAD_FAST               40: x40
+                1872    DUP_TOP                 
+                1874    STORE_FAST              58: akimotoite
+                1876    LOAD_FAST               32: x32
+                1878    DUP_TOP                 
+                1880    STORE_FAST              59: covellite
+                1882    BUILD_TUPLE             3
+                1884    POP_TOP                 
+                1886    LOAD_FAST               65: pyrophanite
+                1888    LOAD_CONST              16: 6
+                1890    BINARY_MULTIPLY         
+                1892    LOAD_FAST               58: akimotoite
+                1894    LOAD_CONST              6: 7
+                1896    BINARY_SUBTRACT         
+                1898    BINARY_MULTIPLY         
+                1900    LOAD_FAST               59: covellite
+                1902    LOAD_CONST              7: 3
+                1904    BINARY_ADD              
+                1906    BINARY_MULTIPLY         
+                1908    LOAD_CONST              41: 5918940
+                1910    COMPARE_OP              3 (!=)
+                1912    POP_JUMP_IF_FALSE       1924
+                1916    LOAD_GLOBAL             2: print
+                1918    LOAD_CONST              5: 'Failed'
+                1920    CALL_FUNCTION           1
+                1922    RETURN_VALUE            
+                1924    LOAD_FAST               24: x24
+                1926    DUP_TOP                 
+                1928    STORE_FAST              65: pyrophanite
+                1930    LOAD_FAST               57: x57
+                1932    DUP_TOP                 
+                1934    STORE_FAST              59: covellite
+                1936    LOAD_FAST               50: x50
+                1938    DUP_TOP                 
+                1940    STORE_FAST              64: fayalite
+                1942    BUILD_TUPLE             3
+                1944    POP_TOP                 
+                1946    LOAD_FAST               65: pyrophanite
+                1948    LOAD_CONST              12: 5
+                1950    BINARY_MULTIPLY         
+                1952    LOAD_FAST               59: covellite
+                1954    LOAD_CONST              3: 4
+                1956    BINARY_SUBTRACT         
+                1958    BINARY_MULTIPLY         
+                1960    LOAD_FAST               64: fayalite
+                1962    LOAD_CONST              7: 3
+                1964    BINARY_ADD              
+                1966    BINARY_MULTIPLY         
+                1968    LOAD_CONST              42: 7235800
+                1970    COMPARE_OP              3 (!=)
+                1972    POP_JUMP_IF_FALSE       1984
+                1976    LOAD_GLOBAL             2: print
+                1978    LOAD_CONST              5: 'Failed'
+                1980    CALL_FUNCTION           1
+                1982    RETURN_VALUE            
+                1984    LOAD_FAST               40: x40
+                1986    DUP_TOP                 
+                1988    STORE_FAST              64: fayalite
+                1990    LOAD_FAST               25: x25
+                1992    DUP_TOP                 
+                1994    STORE_FAST              62: allanite
+                1996    LOAD_FAST               17: x17
+                1998    DUP_TOP                 
+                2000    STORE_FAST              58: akimotoite
+                2002    BUILD_TUPLE             3
+                2004    POP_TOP                 
+                2006    LOAD_FAST               64: fayalite
+                2008    LOAD_CONST              7: 3
+                2010    BINARY_MULTIPLY         
+                2012    LOAD_FAST               62: allanite
+                2014    LOAD_CONST              7: 3
+                2016    BINARY_SUBTRACT         
+                2018    BINARY_MULTIPLY         
+                2020    LOAD_FAST               58: akimotoite
+                2022    LOAD_CONST              2: 8
+                2024    BINARY_ADD              
+                2026    BINARY_MULTIPLY         
+                2028    LOAD_CONST              43: 3025236
+                2030    COMPARE_OP              3 (!=)
+                2032    POP_JUMP_IF_FALSE       2044
+                2036    LOAD_GLOBAL             2: print
+                2038    LOAD_CONST              5: 'Failed'
+                2040    CALL_FUNCTION           1
+                2042    RETURN_VALUE            
+                2044    LOAD_FAST               26: x26
+                2046    DUP_TOP                 
+                2048    STORE_FAST              59: covellite
+                2050    LOAD_FAST               37: x37
+                2052    DUP_TOP                 
+                2054    STORE_FAST              65: pyrophanite
+                2056    LOAD_FAST               51: x51
+                2058    DUP_TOP                 
+                2060    STORE_FAST              64: fayalite
+                2062    BUILD_TUPLE             3
+                2064    POP_TOP                 
+                2066    LOAD_FAST               59: covellite
+                2068    LOAD_CONST              15: 9
+                2070    BINARY_MULTIPLY         
+                2072    LOAD_FAST               65: pyrophanite
+                2074    LOAD_CONST              16: 6
+                2076    BINARY_SUBTRACT         
+                2078    BINARY_MULTIPLY         
+                2080    LOAD_FAST               64: fayalite
+                2082    LOAD_CONST              9: 2
+                2084    BINARY_ADD              
+                2086    BINARY_MULTIPLY         
+                2088    LOAD_CONST              44: 4297293
+                2090    COMPARE_OP              3 (!=)
+                2092    POP_JUMP_IF_FALSE       2104
+                2096    LOAD_GLOBAL             2: print
+                2098    LOAD_CONST              5: 'Failed'
+                2100    CALL_FUNCTION           1
+                2102    RETURN_VALUE            
+                2104    LOAD_FAST               29: x29
+                2106    DUP_TOP                 
+                2108    STORE_FAST              67: clinohumite
+                2110    LOAD_FAST               25: x25
+                2112    DUP_TOP                 
+                2114    STORE_FAST              61: chalcocite
+                2116    LOAD_FAST               4: x4
+                2118    DUP_TOP                 
+                2120    STORE_FAST              60: halloysite
+                2122    BUILD_TUPLE             3
+                2124    POP_TOP                 
+                2126    LOAD_FAST               67: clinohumite
+                2128    LOAD_CONST              9: 2
+                2130    BINARY_MULTIPLY         
+                2132    LOAD_FAST               61: chalcocite
+                2134    LOAD_CONST              10: 1
+                2136    BINARY_SUBTRACT         
+                2138    BINARY_MULTIPLY         
+                2140    LOAD_FAST               60: halloysite
+                2142    LOAD_CONST              6: 7
+                2144    BINARY_ADD              
+                2146    BINARY_MULTIPLY         
+                2148    LOAD_CONST              45: 2639520
+                2150    COMPARE_OP              3 (!=)
+                2152    POP_JUMP_IF_FALSE       2164
+                2156    LOAD_GLOBAL             2: print
+                2158    LOAD_CONST              5: 'Failed'
+                2160    CALL_FUNCTION           1
+                2162    RETURN_VALUE            
+                2164    LOAD_FAST               1: x1
+                2166    DUP_TOP                 
+                2168    STORE_FAST              66: aerinite
+                2170    LOAD_FAST               8: x8
+                2172    DUP_TOP                 
+                2174    STORE_FAST              60: halloysite
+                2176    LOAD_FAST               20: x20
+                2178    DUP_TOP                 
+                2180    STORE_FAST              65: pyrophanite
+                2182    BUILD_TUPLE             3
+                2184    POP_TOP                 
+                2186    LOAD_FAST               66: aerinite
+                2188    LOAD_CONST              6: 7
+                2190    BINARY_MULTIPLY         
+                2192    LOAD_FAST               60: halloysite
+                2194    LOAD_CONST              10: 1
+                2196    BINARY_SUBTRACT         
+                2198    BINARY_MULTIPLY         
+                2200    LOAD_FAST               65: pyrophanite
+                2202    LOAD_CONST              10: 1
+                2204    BINARY_ADD              
+                2206    BINARY_MULTIPLY         
+                2208    LOAD_CONST              46: 7402752
+                2210    COMPARE_OP              3 (!=)
+                2212    POP_JUMP_IF_FALSE       2224
+                2216    LOAD_GLOBAL             2: print
+                2218    LOAD_CONST              5: 'Failed'
+                2220    CALL_FUNCTION           1
+                2222    RETURN_VALUE            
+                2224    LOAD_FAST               49: x49
+                2226    DUP_TOP                 
+                2228    STORE_FAST              59: covellite
+                2230    LOAD_FAST               38: x38
+                2232    DUP_TOP                 
+                2234    STORE_FAST              65: pyrophanite
+                2236    LOAD_FAST               35: x35
+                2238    DUP_TOP                 
+                2240    STORE_FAST              60: halloysite
+                2242    BUILD_TUPLE             3
+                2244    POP_TOP                 
+                2246    LOAD_FAST               59: covellite
+                2248    LOAD_CONST              16: 6
+                2250    BINARY_MULTIPLY         
+                2252    LOAD_FAST               65: pyrophanite
+                2254    LOAD_CONST              12: 5
+                2256    BINARY_SUBTRACT         
+                2258    BINARY_MULTIPLY         
+                2260    LOAD_FAST               60: halloysite
+                2262    LOAD_CONST              9: 2
+                2264    BINARY_ADD              
+                2266    BINARY_MULTIPLY         
+                2268    LOAD_CONST              47: 3299940
+                2270    COMPARE_OP              3 (!=)
+                2272    POP_JUMP_IF_FALSE       2284
+                2276    LOAD_GLOBAL             2: print
+                2278    LOAD_CONST              5: 'Failed'
+                2280    CALL_FUNCTION           1
+                2282    RETURN_VALUE            
+                2284    LOAD_FAST               16: x16
+                2286    DUP_TOP                 
+                2288    STORE_FAST              58: akimotoite
+                2290    LOAD_FAST               34: x34
+                2292    DUP_TOP                 
+                2294    STORE_FAST              61: chalcocite
+                2296    LOAD_FAST               19: x19
+                2298    DUP_TOP                 
+                2300    STORE_FAST              59: covellite
+                2302    BUILD_TUPLE             3
+                2304    POP_TOP                 
+                2306    LOAD_FAST               58: akimotoite
+                2308    LOAD_CONST              10: 1
+                2310    BINARY_MULTIPLY         
+                2312    LOAD_FAST               61: chalcocite
+                2314    LOAD_CONST              9: 2
+                2316    BINARY_SUBTRACT         
+                2318    BINARY_MULTIPLY         
+                2320    LOAD_FAST               59: covellite
+                2322    LOAD_CONST              9: 2
+                2324    BINARY_ADD              
+                2326    BINARY_MULTIPLY         
+                2328    LOAD_CONST              48: 1226610
+                2330    COMPARE_OP              3 (!=)
+                2332    POP_JUMP_IF_FALSE       2344
+                2336    LOAD_GLOBAL             2: print
+                2338    LOAD_CONST              5: 'Failed'
+                2340    CALL_FUNCTION           1
+                2342    RETURN_VALUE            
+                2344    LOAD_FAST               50: x50
+                2346    DUP_TOP                 
+                2348    STORE_FAST              59: covellite
+                2350    LOAD_FAST               10: x10
+                2352    DUP_TOP                 
+                2354    STORE_FAST              64: fayalite
+                2356    LOAD_FAST               44: x44
+                2358    DUP_TOP                 
+                2360    STORE_FAST              60: halloysite
+                2362    BUILD_TUPLE             3
+                2364    POP_TOP                 
+                2366    LOAD_FAST               59: covellite
+                2368    LOAD_CONST              9: 2
+                2370    BINARY_MULTIPLY         
+                2372    LOAD_FAST               64: fayalite
+                2374    LOAD_CONST              9: 2
+                2376    BINARY_SUBTRACT         
+                2378    BINARY_MULTIPLY         
+                2380    LOAD_FAST               60: halloysite
+                2382    LOAD_CONST              16: 6
+                2384    BINARY_ADD              
+                2386    BINARY_MULTIPLY         
+                2388    LOAD_CONST              49: 2203416
+                2390    COMPARE_OP              3 (!=)
+                2392    POP_JUMP_IF_FALSE       2404
+                2396    LOAD_GLOBAL             2: print
+                2398    LOAD_CONST              5: 'Failed'
+                2400    CALL_FUNCTION           1
+                2402    RETURN_VALUE            
+                2404    LOAD_FAST               56: x56
+                2406    DUP_TOP                 
+                2408    STORE_FAST              58: akimotoite
+                2410    LOAD_FAST               15: x15
+                2412    DUP_TOP                 
+                2414    STORE_FAST              63: kurnakovite
+                2416    LOAD_FAST               40: x40
+                2418    DUP_TOP                 
+                2420    STORE_FAST              67: clinohumite
+                2422    BUILD_TUPLE             3
+                2424    POP_TOP                 
+                2426    LOAD_FAST               58: akimotoite
+                2428    LOAD_CONST              6: 7
+                2430    BINARY_MULTIPLY         
+                2432    LOAD_FAST               63: kurnakovite
+                2434    LOAD_CONST              9: 2
+                2436    BINARY_SUBTRACT         
+                2438    BINARY_MULTIPLY         
+                2440    LOAD_FAST               67: clinohumite
+                2442    LOAD_CONST              10: 1
+                2444    BINARY_ADD              
+                2446    BINARY_MULTIPLY         
+                2448    LOAD_CONST              50: 7126168
+                2450    COMPARE_OP              3 (!=)
+                2452    POP_JUMP_IF_FALSE       2464
+                2456    LOAD_GLOBAL             2: print
+                2458    LOAD_CONST              5: 'Failed'
+                2460    CALL_FUNCTION           1
+                2462    RETURN_VALUE            
+                2464    LOAD_FAST               36: x36
+                2466    DUP_TOP                 
+                2468    STORE_FAST              63: kurnakovite
+                2470    LOAD_FAST               47: x47
+                2472    DUP_TOP                 
+                2474    STORE_FAST              60: halloysite
+                2476    LOAD_FAST               57: x57
+                2478    DUP_TOP                 
+                2480    STORE_FAST              61: chalcocite
+                2482    BUILD_TUPLE             3
+                2484    POP_TOP                 
+                2486    LOAD_FAST               63: kurnakovite
+                2488    LOAD_CONST              12: 5
+                2490    BINARY_MULTIPLY         
+                2492    LOAD_FAST               60: halloysite
+                2494    LOAD_CONST              9: 2
+                2496    BINARY_SUBTRACT         
+                2498    BINARY_MULTIPLY         
+                2500    LOAD_FAST               61: chalcocite
+                2502    LOAD_CONST              15: 9
+                2504    BINARY_ADD              
+                2506    BINARY_MULTIPLY         
+                2508    LOAD_CONST              51: 3797560
+                2510    COMPARE_OP              3 (!=)
+                2512    POP_JUMP_IF_FALSE       2524
+                2516    LOAD_GLOBAL             2: print
+                2518    LOAD_CONST              5: 'Failed'
+                2520    CALL_FUNCTION           1
+                2522    RETURN_VALUE            
+                2524    LOAD_FAST               39: x39
+                2526    DUP_TOP                 
+                2528    STORE_FAST              60: halloysite
+                2530    LOAD_FAST               24: x24
+                2532    DUP_TOP                 
+                2534    STORE_FAST              63: kurnakovite
+                2536    LOAD_FAST               42: x42
+                2538    DUP_TOP                 
+                2540    STORE_FAST              61: chalcocite
+                2542    BUILD_TUPLE             3
+                2544    POP_TOP                 
+                2546    LOAD_FAST               60: halloysite
+                2548    LOAD_CONST              9: 2
+                2550    BINARY_MULTIPLY         
+                2552    LOAD_FAST               63: kurnakovite
+                2554    LOAD_CONST              6: 7
+                2556    BINARY_SUBTRACT         
+                2558    BINARY_MULTIPLY         
+                2560    LOAD_FAST               61: chalcocite
+                2562    LOAD_CONST              2: 8
+                2564    BINARY_ADD              
+                2566    BINARY_MULTIPLY         
+                2568    LOAD_CONST              52: 2931552
+                2570    COMPARE_OP              3 (!=)
+                2572    POP_JUMP_IF_FALSE       2584
+                2576    LOAD_GLOBAL             2: print
+                2578    LOAD_CONST              5: 'Failed'
+                2580    CALL_FUNCTION           1
+                2582    RETURN_VALUE            
+                2584    LOAD_FAST               23: x23
+                2586    DUP_TOP                 
+                2588    STORE_FAST              67: clinohumite
+                2590    LOAD_FAST               24: x24
+                2592    DUP_TOP                 
+                2594    STORE_FAST              60: halloysite
+                2596    LOAD_FAST               0: x0
+                2598    DUP_TOP                 
+                2600    STORE_FAST              62: allanite
+                2602    BUILD_TUPLE             3
+                2604    POP_TOP                 
+                2606    LOAD_FAST               67: clinohumite
+                2608    LOAD_CONST              16: 6
+                2610    BINARY_MULTIPLY         
+                2612    LOAD_FAST               60: halloysite
+                2614    LOAD_CONST              16: 6
+                2616    BINARY_SUBTRACT         
+                2618    BINARY_MULTIPLY         
+                2620    LOAD_FAST               62: allanite
+                2622    LOAD_CONST              7: 3
+                2624    BINARY_ADD              
+                2626    BINARY_MULTIPLY         
+                2628    LOAD_CONST              53: 7210350
+                2630    COMPARE_OP              3 (!=)
+                2632    POP_JUMP_IF_FALSE       2644
+                2636    LOAD_GLOBAL             2: print
+                2638    LOAD_CONST              5: 'Failed'
+                2640    CALL_FUNCTION           1
+                2642    RETURN_VALUE            
+                2644    LOAD_FAST               16: x16
+                2646    DUP_TOP                 
+                2648    STORE_FAST              60: halloysite
+                2650    LOAD_FAST               39: x39
+                2652    DUP_TOP                 
+                2654    STORE_FAST              61: chalcocite
+                2656    LOAD_FAST               39: x39
+                2658    DUP_TOP                 
+                2660    STORE_FAST              67: clinohumite
+                2662    BUILD_TUPLE             3
+                2664    POP_TOP                 
+                2666    LOAD_FAST               60: halloysite
+                2668    LOAD_CONST              16: 6
+                2670    BINARY_MULTIPLY         
+                2672    LOAD_FAST               61: chalcocite
+                2674    LOAD_CONST              12: 5
+                2676    BINARY_SUBTRACT         
+                2678    BINARY_MULTIPLY         
+                2680    LOAD_FAST               67: clinohumite
+                2682    LOAD_CONST              7: 3
+                2684    BINARY_ADD              
+                2686    BINARY_MULTIPLY         
+                2688    LOAD_CONST              54: 9515520
+                2690    COMPARE_OP              3 (!=)
+                2692    POP_JUMP_IF_FALSE       2704
+                2696    LOAD_GLOBAL             2: print
+                2698    LOAD_CONST              5: 'Failed'
+                2700    CALL_FUNCTION           1
+                2702    RETURN_VALUE            
+                2704    LOAD_FAST               0: x0
+                2706    DUP_TOP                 
+                2708    STORE_FAST              58: akimotoite
+                2710    LOAD_FAST               13: x13
+                2712    DUP_TOP                 
+                2714    STORE_FAST              63: kurnakovite
+                2716    LOAD_FAST               53: x53
+                2718    DUP_TOP                 
+                2720    STORE_FAST              60: halloysite
+                2722    BUILD_TUPLE             3
+                2724    POP_TOP                 
+                2726    LOAD_FAST               58: akimotoite
+                2728    LOAD_CONST              3: 4
+                2730    BINARY_MULTIPLY         
+                2732    LOAD_FAST               63: kurnakovite
+                2734    LOAD_CONST              12: 5
+                2736    BINARY_SUBTRACT         
+                2738    BINARY_MULTIPLY         
+                2740    LOAD_FAST               60: halloysite
+                2742    LOAD_CONST              16: 6
+                2744    BINARY_ADD              
+                2746    BINARY_MULTIPLY         
+                2748    LOAD_CONST              55: 4667520
+                2750    COMPARE_OP              3 (!=)
+                2752    POP_JUMP_IF_FALSE       2764
+                2756    LOAD_GLOBAL             2: print
+                2758    LOAD_CONST              5: 'Failed'
+                2760    CALL_FUNCTION           1
+                2762    RETURN_VALUE            
+                2764    LOAD_FAST               37: x37
+                2766    DUP_TOP                 
+                2768    STORE_FAST              63: kurnakovite
+                2770    LOAD_FAST               15: x15
+                2772    DUP_TOP                 
+                2774    STORE_FAST              58: akimotoite
+                2776    LOAD_FAST               24: x24
+                2778    DUP_TOP                 
+                2780    STORE_FAST              60: halloysite
+                2782    BUILD_TUPLE             3
+                2784    POP_TOP                 
+                2786    LOAD_FAST               63: kurnakovite
+                2788    LOAD_CONST              3: 4
+                2790    BINARY_MULTIPLY         
+                2792    LOAD_FAST               58: akimotoite
+                2794    LOAD_CONST              7: 3
+                2796    BINARY_SUBTRACT         
+                2798    BINARY_MULTIPLY         
+                2800    LOAD_FAST               60: halloysite
+                2802    LOAD_CONST              9: 2
+                2804    BINARY_ADD              
+                2806    BINARY_MULTIPLY         
+                2808    LOAD_CONST              56: 4766580
+                2810    COMPARE_OP              3 (!=)
+                2812    POP_JUMP_IF_FALSE       2824
+                2816    LOAD_GLOBAL             2: print
+                2818    LOAD_CONST              5: 'Failed'
+                2820    CALL_FUNCTION           1
+                2822    RETURN_VALUE            
+                2824    LOAD_FAST               0: x0
+                2826    DUP_TOP                 
+                2828    STORE_FAST              63: kurnakovite
+                2830    LOAD_FAST               42: x42
+                2832    DUP_TOP                 
+                2834    STORE_FAST              64: fayalite
+                2836    LOAD_FAST               32: x32
+                2838    DUP_TOP                 
+                2840    STORE_FAST              67: clinohumite
+                2842    BUILD_TUPLE             3
+                2844    POP_TOP                 
+                2846    LOAD_FAST               63: kurnakovite
+                2848    LOAD_CONST              3: 4
+                2850    BINARY_MULTIPLY         
+                2852    LOAD_FAST               64: fayalite
+                2854    LOAD_CONST              3: 4
+                2856    BINARY_SUBTRACT         
+                2858    BINARY_MULTIPLY         
+                2860    LOAD_FAST               67: clinohumite
+                2862    LOAD_CONST              9: 2
+                2864    BINARY_ADD              
+                2866    BINARY_MULTIPLY         
+                2868    LOAD_CONST              57: 4752384
+                2870    COMPARE_OP              3 (!=)
+                2872    POP_JUMP_IF_FALSE       2884
+                2876    LOAD_GLOBAL             2: print
+                2878    LOAD_CONST              5: 'Failed'
+                2880    CALL_FUNCTION           1
+                2882    RETURN_VALUE            
+                2884    LOAD_FAST               32: x32
+                2886    DUP_TOP                 
+                2888    STORE_FAST              65: pyrophanite
+                2890    LOAD_FAST               21: x21
+                2892    DUP_TOP                 
+                2894    STORE_FAST              58: akimotoite
+                2896    LOAD_FAST               12: x12
+                2898    DUP_TOP                 
+                2900    STORE_FAST              66: aerinite
+                2902    BUILD_TUPLE             3
+                2904    POP_TOP                 
+                2906    LOAD_FAST               65: pyrophanite
+                2908    LOAD_CONST              6: 7
+                2910    BINARY_MULTIPLY         
+                2912    LOAD_FAST               58: akimotoite
+                2914    LOAD_CONST              16: 6
+                2916    BINARY_SUBTRACT         
+                2918    BINARY_MULTIPLY         
+                2920    LOAD_FAST               66: aerinite
+                2922    LOAD_CONST              2: 8
+                2924    BINARY_ADD              
+                2926    BINARY_MULTIPLY         
+                2928    LOAD_CONST              58: 8724100
+                2930    COMPARE_OP              3 (!=)
+                2932    POP_JUMP_IF_FALSE       2944
+                2936    LOAD_GLOBAL             2: print
+                2938    LOAD_CONST              5: 'Failed'
+                2940    CALL_FUNCTION           1
+                2942    RETURN_VALUE            
+                2944    LOAD_FAST               21: x21
+                2946    DUP_TOP                 
+                2948    STORE_FAST              66: aerinite
+                2950    LOAD_FAST               6: x6
+                2952    DUP_TOP                 
+                2954    STORE_FAST              63: kurnakovite
+                2956    LOAD_FAST               26: x26
+                2958    DUP_TOP                 
+                2960    STORE_FAST              61: chalcocite
+                2962    BUILD_TUPLE             3
+                2964    POP_TOP                 
+                2966    LOAD_FAST               66: aerinite
+                2968    LOAD_CONST              16: 6
+                2970    BINARY_MULTIPLY         
+                2972    LOAD_FAST               63: kurnakovite
+                2974    LOAD_CONST              7: 3
+                2976    BINARY_SUBTRACT         
+                2978    BINARY_MULTIPLY         
+                2980    LOAD_FAST               61: chalcocite
+                2982    LOAD_CONST              3: 4
+                2984    BINARY_ADD              
+                2986    BINARY_MULTIPLY         
+                2988    LOAD_CONST              59: 7598928
+                2990    COMPARE_OP              3 (!=)
+                2992    POP_JUMP_IF_FALSE       3004
+                2996    LOAD_GLOBAL             2: print
+                2998    LOAD_CONST              5: 'Failed'
+                3000    CALL_FUNCTION           1
+                3002    RETURN_VALUE            
+                3004    LOAD_FAST               41: x41
+                3006    DUP_TOP                 
+                3008    STORE_FAST              65: pyrophanite
+                3010    LOAD_FAST               18: x18
+                3012    DUP_TOP                 
+                3014    STORE_FAST              61: chalcocite
+                3016    LOAD_FAST               30: x30
+                3018    DUP_TOP                 
+                3020    STORE_FAST              60: halloysite
+                3022    BUILD_TUPLE             3
+                3024    POP_TOP                 
+                3026    LOAD_FAST               65: pyrophanite
+                3028    LOAD_CONST              15: 9
+                3030    BINARY_MULTIPLY         
+                3032    LOAD_FAST               61: chalcocite
+                3034    LOAD_CONST              6: 7
+                3036    BINARY_SUBTRACT         
+                3038    BINARY_MULTIPLY         
+                3040    LOAD_FAST               60: halloysite
+                3042    LOAD_CONST              6: 7
+                3044    BINARY_ADD              
+                3046    BINARY_MULTIPLY         
+                3048    LOAD_CONST              60: 11513340
+                3050    COMPARE_OP              3 (!=)
+                3052    POP_JUMP_IF_FALSE       3064
+                3056    LOAD_GLOBAL             2: print
+                3058    LOAD_CONST              5: 'Failed'
+                3060    CALL_FUNCTION           1
+                3062    RETURN_VALUE            
+                3064    LOAD_FAST               25: x25
+                3066    DUP_TOP                 
+                3068    STORE_FAST              60: halloysite
+                3070    LOAD_FAST               43: x43
+                3072    DUP_TOP                 
+                3074    STORE_FAST              67: clinohumite
+                3076    LOAD_FAST               13: x13
+                3078    DUP_TOP                 
+                3080    STORE_FAST              63: kurnakovite
+                3082    BUILD_TUPLE             3
+                3084    POP_TOP                 
+                3086    LOAD_FAST               60: halloysite
+                3088    LOAD_CONST              9: 2
+                3090    BINARY_MULTIPLY         
+                3092    LOAD_FAST               67: clinohumite
+                3094    LOAD_CONST              3: 4
+                3096    BINARY_SUBTRACT         
+                3098    BINARY_MULTIPLY         
+                3100    LOAD_FAST               63: kurnakovite
+                3102    LOAD_CONST              15: 9
+                3104    BINARY_ADD              
+                3106    BINARY_MULTIPLY         
+                3108    LOAD_CONST              61: 2756520
+                3110    COMPARE_OP              3 (!=)
+                3112    POP_JUMP_IF_FALSE       3124
+                3116    LOAD_GLOBAL             2: print
+                3118    LOAD_CONST              5: 'Failed'
+                3120    CALL_FUNCTION           1
+                3122    RETURN_VALUE            
+                3124    LOAD_FAST               13: x13
+                3126    DUP_TOP                 
+                3128    STORE_FAST              63: kurnakovite
+                3130    LOAD_FAST               26: x26
+                3132    DUP_TOP                 
+                3134    STORE_FAST              67: clinohumite
+                3136    LOAD_FAST               55: x55
+                3138    DUP_TOP                 
+                3140    STORE_FAST              66: aerinite
+                3142    BUILD_TUPLE             3
+                3144    POP_TOP                 
+                3146    LOAD_FAST               63: kurnakovite
+                3148    LOAD_CONST              7: 3
+                3150    BINARY_MULTIPLY         
+                3152    LOAD_FAST               67: clinohumite
+                3154    LOAD_CONST              9: 2
+                3156    BINARY_SUBTRACT         
+                3158    BINARY_MULTIPLY         
+                3160    LOAD_FAST               66: aerinite
+                3162    LOAD_CONST              12: 5
+                3164    BINARY_ADD              
+                3166    BINARY_MULTIPLY         
+                3168    LOAD_CONST              62: 3480360
+                3170    COMPARE_OP              3 (!=)
+                3172    POP_JUMP_IF_FALSE       3184
+                3176    LOAD_GLOBAL             2: print
+                3178    LOAD_CONST              5: 'Failed'
+                3180    CALL_FUNCTION           1
+                3182    RETURN_VALUE            
+                3184    LOAD_FAST               1: x1
+                3186    DUP_TOP                 
+                3188    STORE_FAST              66: aerinite
+                3190    LOAD_FAST               20: x20
+                3192    DUP_TOP                 
+                3194    STORE_FAST              61: chalcocite
+                3196    LOAD_FAST               55: x55
+                3198    DUP_TOP                 
+                3200    STORE_FAST              65: pyrophanite
+                3202    BUILD_TUPLE             3
+                3204    POP_TOP                 
+                3206    LOAD_FAST               66: aerinite
+                3208    LOAD_CONST              15: 9
+                3210    BINARY_MULTIPLY         
+                3212    LOAD_FAST               61: chalcocite
+                3214    LOAD_CONST              6: 7
+                3216    BINARY_SUBTRACT         
+                3218    BINARY_MULTIPLY         
+                3220    LOAD_FAST               65: pyrophanite
+                3222    LOAD_CONST              2: 8
+                3224    BINARY_ADD              
+                3226    BINARY_MULTIPLY         
+                3228    LOAD_CONST              63: 9152352
+                3230    COMPARE_OP              3 (!=)
+                3232    POP_JUMP_IF_FALSE       3244
+                3236    LOAD_GLOBAL             2: print
+                3238    LOAD_CONST              5: 'Failed'
+                3240    CALL_FUNCTION           1
+                3242    RETURN_VALUE            
+                3244    LOAD_FAST               53: x53
+                3246    DUP_TOP                 
+                3248    STORE_FAST              65: pyrophanite
+                3250    LOAD_FAST               26: x26
+                3252    DUP_TOP                 
+                3254    STORE_FAST              63: kurnakovite
+                3256    LOAD_FAST               35: x35
+                3258    DUP_TOP                 
+                3260    STORE_FAST              64: fayalite
+                3262    BUILD_TUPLE             3
+                3264    POP_TOP                 
+                3266    LOAD_FAST               65: pyrophanite
+                3268    LOAD_CONST              16: 6
+                3270    BINARY_MULTIPLY         
+                3272    LOAD_FAST               63: kurnakovite
+                3274    LOAD_CONST              9: 2
+                3276    BINARY_SUBTRACT         
+                3278    BINARY_MULTIPLY         
+                3280    LOAD_FAST               64: fayalite
+                3282    LOAD_CONST              12: 5
+                3284    BINARY_ADD              
+                3286    BINARY_MULTIPLY         
+                3288    LOAD_CONST              64: 5703600
+                3290    COMPARE_OP              3 (!=)
+                3292    POP_JUMP_IF_FALSE       3304
+                3296    LOAD_GLOBAL             2: print
+                3298    LOAD_CONST              5: 'Failed'
+                3300    CALL_FUNCTION           1
+                3302    RETURN_VALUE            
+                3304    LOAD_FAST               51: x51
+                3306    DUP_TOP                 
+                3308    STORE_FAST              66: aerinite
+                3310    LOAD_FAST               27: x27
+                3312    DUP_TOP                 
+                3314    STORE_FAST              65: pyrophanite
+                3316    LOAD_FAST               37: x37
+                3318    DUP_TOP                 
+                3320    STORE_FAST              63: kurnakovite
+                3322    BUILD_TUPLE             3
+                3324    POP_TOP                 
+                3326    LOAD_FAST               66: aerinite
+                3328    LOAD_CONST              2: 8
+                3330    BINARY_MULTIPLY         
+                3332    LOAD_FAST               65: pyrophanite
+                3334    LOAD_CONST              16: 6
+                3336    BINARY_SUBTRACT         
+                3338    BINARY_MULTIPLY         
+                3340    LOAD_FAST               63: kurnakovite
+                3342    LOAD_CONST              15: 9
+                3344    BINARY_ADD              
+                3346    BINARY_MULTIPLY         
+                3348    LOAD_CONST              65: 4238304
+                3350    COMPARE_OP              3 (!=)
+                3352    POP_JUMP_IF_FALSE       3364
+                3356    LOAD_GLOBAL             2: print
+                3358    LOAD_CONST              5: 'Failed'
+                3360    CALL_FUNCTION           1
+                3362    RETURN_VALUE            
+                3364    LOAD_FAST               53: x53
+                3366    DUP_TOP                 
+                3368    STORE_FAST              63: kurnakovite
+                3370    LOAD_FAST               0: x0
+                3372    DUP_TOP                 
+                3374    STORE_FAST              67: clinohumite
+                3376    LOAD_FAST               42: x42
+                3378    DUP_TOP                 
+                3380    STORE_FAST              58: akimotoite
+                3382    BUILD_TUPLE             3
+                3384    POP_TOP                 
+                3386    LOAD_FAST               63: kurnakovite
+                3388    LOAD_CONST              6: 7
+                3390    BINARY_MULTIPLY         
+                3392    LOAD_FAST               67: clinohumite
+                3394    LOAD_CONST              6: 7
+                3396    BINARY_SUBTRACT         
+                3398    BINARY_MULTIPLY         
+                3400    LOAD_FAST               58: akimotoite
+                3402    LOAD_CONST              12: 5
+                3404    BINARY_ADD              
+                3406    BINARY_MULTIPLY         
+                3408    LOAD_CONST              66: 7364210
+                3410    COMPARE_OP              3 (!=)
+                3412    POP_JUMP_IF_FALSE       3424
+                3416    LOAD_GLOBAL             2: print
+                3418    LOAD_CONST              5: 'Failed'
+                3420    CALL_FUNCTION           1
+                3422    RETURN_VALUE            
+                3424    LOAD_FAST               32: x32
+                3426    DUP_TOP                 
+                3428    STORE_FAST              62: allanite
+                3430    LOAD_FAST               5: x5
+                3432    DUP_TOP                 
+                3434    STORE_FAST              66: aerinite
+                3436    LOAD_FAST               56: x56
+                3438    DUP_TOP                 
+                3440    STORE_FAST              65: pyrophanite
+                3442    BUILD_TUPLE             3
+                3444    POP_TOP                 
+                3446    LOAD_FAST               62: allanite
+                3448    LOAD_CONST              2: 8
+                3450    BINARY_MULTIPLY         
+                3452    LOAD_FAST               66: aerinite
+                3454    LOAD_CONST              3: 4
+                3456    BINARY_SUBTRACT         
+                3458    BINARY_MULTIPLY         
+                3460    LOAD_FAST               65: pyrophanite
+                3462    LOAD_CONST              6: 7
+                3464    BINARY_ADD              
+                3466    BINARY_MULTIPLY         
+                3468    LOAD_CONST              67: 9332400
+                3470    COMPARE_OP              3 (!=)
+                3472    POP_JUMP_IF_FALSE       3484
+                3476    LOAD_GLOBAL             2: print
+                3478    LOAD_CONST              5: 'Failed'
+                3480    CALL_FUNCTION           1
+                3482    RETURN_VALUE            
+                3484    LOAD_FAST               54: x54
+                3486    DUP_TOP                 
+                3488    STORE_FAST              62: allanite
+                3490    LOAD_FAST               2: x2
+                3492    DUP_TOP                 
+                3494    STORE_FAST              67: clinohumite
+                3496    LOAD_FAST               32: x32
+                3498    DUP_TOP                 
+                3500    STORE_FAST              59: covellite
+                3502    BUILD_TUPLE             3
+                3504    POP_TOP                 
+                3506    LOAD_FAST               62: allanite
+                3508    LOAD_CONST              10: 1
+                3510    BINARY_MULTIPLY         
+                3512    LOAD_FAST               67: clinohumite
+                3514    LOAD_CONST              12: 5
+                3516    BINARY_SUBTRACT         
+                3518    BINARY_MULTIPLY         
+                3520    LOAD_FAST               59: covellite
+                3522    LOAD_CONST              3: 4
+                3524    BINARY_ADD              
+                3526    BINARY_MULTIPLY         
+                3528    LOAD_CONST              68: 513912
+                3530    COMPARE_OP              3 (!=)
+                3532    POP_JUMP_IF_FALSE       3544
+                3536    LOAD_GLOBAL             2: print
+                3538    LOAD_CONST              5: 'Failed'
+                3540    CALL_FUNCTION           1
+                3542    RETURN_VALUE            
+                3544    LOAD_FAST               24: x24
+                3546    DUP_TOP                 
+                3548    STORE_FAST              67: clinohumite
+                3550    LOAD_FAST               6: x6
+                3552    DUP_TOP                 
+                3554    STORE_FAST              64: fayalite
+                3556    LOAD_FAST               13: x13
+                3558    DUP_TOP                 
+                3560    STORE_FAST              66: aerinite
+                3562    BUILD_TUPLE             3
+                3564    POP_TOP                 
+                3566    LOAD_FAST               67: clinohumite
+                3568    LOAD_CONST              7: 3
+                3570    BINARY_MULTIPLY         
+                3572    LOAD_FAST               64: fayalite
+                3574    LOAD_CONST              6: 7
+                3576    BINARY_SUBTRACT         
+                3578    BINARY_MULTIPLY         
+                3580    LOAD_FAST               66: aerinite
+                3582    LOAD_CONST              3: 4
+                3584    BINARY_ADD              
+                3586    BINARY_MULTIPLY         
+                3588    LOAD_CONST              69: 4187610
+                3590    COMPARE_OP              3 (!=)
+                3592    POP_JUMP_IF_FALSE       3604
+                3596    LOAD_GLOBAL             2: print
+                3598    LOAD_CONST              5: 'Failed'
+                3600    CALL_FUNCTION           1
+                3602    RETURN_VALUE            
+                3604    LOAD_FAST               23: x23
+                3606    DUP_TOP                 
+                3608    STORE_FAST              63: kurnakovite
+                3610    LOAD_FAST               46: x46
+                3612    DUP_TOP                 
+                3614    STORE_FAST              65: pyrophanite
+                3616    LOAD_FAST               36: x36
+                3618    DUP_TOP                 
+                3620    STORE_FAST              66: aerinite
+                3622    BUILD_TUPLE             3
+                3624    POP_TOP                 
+                3626    LOAD_FAST               63: kurnakovite
+                3628    LOAD_CONST              16: 6
+                3630    BINARY_MULTIPLY         
+                3632    LOAD_FAST               65: pyrophanite
+                3634    LOAD_CONST              16: 6
+                3636    BINARY_SUBTRACT         
+                3638    BINARY_MULTIPLY         
+                3640    LOAD_FAST               66: aerinite
+                3642    LOAD_CONST              6: 7
+                3644    BINARY_ADD              
+                3646    BINARY_MULTIPLY         
+                3648    LOAD_CONST              70: 6723360
+                3650    COMPARE_OP              3 (!=)
+                3652    POP_JUMP_IF_FALSE       3664
+                3656    LOAD_GLOBAL             2: print
+                3658    LOAD_CONST              5: 'Failed'
+                3660    CALL_FUNCTION           1
+                3662    RETURN_VALUE            
+                3664    LOAD_FAST               36: x36
+                3666    DUP_TOP                 
+                3668    STORE_FAST              65: pyrophanite
+                3670    LOAD_FAST               14: x14
+                3672    DUP_TOP                 
+                3674    STORE_FAST              66: aerinite
+                3676    LOAD_FAST               32: x32
+                3678    DUP_TOP                 
+                3680    STORE_FAST              63: kurnakovite
+                3682    BUILD_TUPLE             3
+                3684    POP_TOP                 
+                3686    LOAD_FAST               65: pyrophanite
+                3688    LOAD_CONST              12: 5
+                3690    BINARY_MULTIPLY         
+                3692    LOAD_FAST               66: aerinite
+                3694    LOAD_CONST              2: 8
+                3696    BINARY_SUBTRACT         
+                3698    BINARY_MULTIPLY         
+                3700    LOAD_FAST               63: kurnakovite
+                3702    LOAD_CONST              9: 2
+                3704    BINARY_ADD              
+                3706    BINARY_MULTIPLY         
+                3708    LOAD_CONST              71: 6287120
+                3710    COMPARE_OP              3 (!=)
+                3712    POP_JUMP_IF_FALSE       3724
+                3716    LOAD_GLOBAL             2: print
+                3718    LOAD_CONST              5: 'Failed'
+                3720    CALL_FUNCTION           1
+                3722    RETURN_VALUE            
+                3724    LOAD_FAST               31: x31
+                3726    DUP_TOP                 
+                3728    STORE_FAST              58: akimotoite
+                3730    LOAD_FAST               9: x9
+                3732    DUP_TOP                 
+                3734    STORE_FAST              64: fayalite
+                3736    LOAD_FAST               42: x42
+                3738    DUP_TOP                 
+                3740    STORE_FAST              60: halloysite
+                3742    BUILD_TUPLE             3
+                3744    POP_TOP                 
+                3746    LOAD_FAST               58: akimotoite
+                3748    LOAD_CONST              12: 5
+                3750    BINARY_MULTIPLY         
+                3752    LOAD_FAST               64: fayalite
+                3754    LOAD_CONST              7: 3
+                3756    BINARY_SUBTRACT         
+                3758    BINARY_MULTIPLY         
+                3760    LOAD_FAST               60: halloysite
+                3762    LOAD_CONST              12: 5
+                3764    BINARY_ADD              
+                3766    BINARY_MULTIPLY         
+                3768    LOAD_CONST              72: 5820630
+                3770    COMPARE_OP              3 (!=)
+                3772    POP_JUMP_IF_FALSE       3784
+                3776    LOAD_GLOBAL             2: print
+                3778    LOAD_CONST              5: 'Failed'
+                3780    CALL_FUNCTION           1
+                3782    RETURN_VALUE            
+                3784    LOAD_FAST               47: x47
+                3786    DUP_TOP                 
+                3788    STORE_FAST              66: aerinite
+                3790    LOAD_FAST               54: x54
+                3792    DUP_TOP                 
+                3794    STORE_FAST              59: covellite
+                3796    LOAD_FAST               16: x16
+                3798    DUP_TOP                 
+                3800    STORE_FAST              67: clinohumite
+                3802    BUILD_TUPLE             3
+                3804    POP_TOP                 
+                3806    LOAD_FAST               66: aerinite
+                3808    LOAD_CONST              10: 1
+                3810    BINARY_MULTIPLY         
+                3812    LOAD_FAST               59: covellite
+                3814    LOAD_CONST              2: 8
+                3816    BINARY_SUBTRACT         
+                3818    BINARY_MULTIPLY         
+                3820    LOAD_FAST               67: clinohumite
+                3822    LOAD_CONST              7: 3
+                3824    BINARY_ADD              
+                3826    BINARY_MULTIPLY         
+                3828    LOAD_CONST              73: 267894
+                3830    COMPARE_OP              3 (!=)
+                3832    POP_JUMP_IF_FALSE       3844
+                3836    LOAD_GLOBAL             2: print
+                3838    LOAD_CONST              5: 'Failed'
+                3840    CALL_FUNCTION           1
+                3842    RETURN_VALUE            
+                3844    LOAD_FAST               34: x34
+                3846    DUP_TOP                 
+                3848    STORE_FAST              62: allanite
+                3850    LOAD_FAST               56: x56
+                3852    DUP_TOP                 
+                3854    STORE_FAST              67: clinohumite
+                3856    LOAD_FAST               43: x43
+                3858    DUP_TOP                 
+                3860    STORE_FAST              65: pyrophanite
+                3862    BUILD_TUPLE             3
+                3864    POP_TOP                 
+                3866    LOAD_FAST               62: allanite
+                3868    LOAD_CONST              12: 5
+                3870    BINARY_MULTIPLY         
+                3872    LOAD_FAST               67: clinohumite
+                3874    LOAD_CONST              6: 7
+                3876    BINARY_SUBTRACT         
+                3878    BINARY_MULTIPLY         
+                3880    LOAD_FAST               65: pyrophanite
+                3882    LOAD_CONST              12: 5
+                3884    BINARY_ADD              
+                3886    BINARY_MULTIPLY         
+                3888    LOAD_CONST              74: 5790330
+                3890    COMPARE_OP              3 (!=)
+                3892    POP_JUMP_IF_FALSE       3904
+                3896    LOAD_GLOBAL             2: print
+                3898    LOAD_CONST              5: 'Failed'
+                3900    CALL_FUNCTION           1
+                3902    RETURN_VALUE            
+                3904    LOAD_FAST               30: x30
+                3906    DUP_TOP                 
+                3908    STORE_FAST              61: chalcocite
+                3910    LOAD_FAST               49: x49
+                3912    DUP_TOP                 
+                3914    STORE_FAST              67: clinohumite
+                3916    LOAD_FAST               16: x16
+                3918    DUP_TOP                 
+                3920    STORE_FAST              59: covellite
+                3922    BUILD_TUPLE             3
+                3924    POP_TOP                 
+                3926    LOAD_FAST               61: chalcocite
+                3928    LOAD_CONST              16: 6
+                3930    BINARY_MULTIPLY         
+                3932    LOAD_FAST               67: clinohumite
+                3934    LOAD_CONST              16: 6
+                3936    BINARY_SUBTRACT         
+                3938    BINARY_MULTIPLY         
+                3940    LOAD_FAST               59: covellite
+                3942    LOAD_CONST              16: 6
+                3944    BINARY_ADD              
+                3946    BINARY_MULTIPLY         
+                3948    LOAD_CONST              75: 3856896
+                3950    COMPARE_OP              3 (!=)
+                3952    POP_JUMP_IF_FALSE       3964
+                3956    LOAD_GLOBAL             2: print
+                3958    LOAD_CONST              5: 'Failed'
+                3960    CALL_FUNCTION           1
+                3962    RETURN_VALUE            
+                3964    LOAD_FAST               40: x40
+                3966    DUP_TOP                 
+                3968    STORE_FAST              62: allanite
+                3970    LOAD_FAST               0: x0
+                3972    DUP_TOP                 
+                3974    STORE_FAST              65: pyrophanite
+                3976    LOAD_FAST               22: x22
+                3978    DUP_TOP                 
+                3980    STORE_FAST              58: akimotoite
+                3982    BUILD_TUPLE             3
+                3984    POP_TOP                 
+                3986    LOAD_FAST               62: allanite
+                3988    LOAD_CONST              15: 9
+                3990    BINARY_MULTIPLY         
+                3992    LOAD_FAST               65: pyrophanite
+                3994    LOAD_CONST              16: 6
+                3996    BINARY_SUBTRACT         
+                3998    BINARY_MULTIPLY         
+                4000    LOAD_FAST               58: akimotoite
+                4002    LOAD_CONST              7: 3
+                4004    BINARY_ADD              
+                4006    BINARY_MULTIPLY         
+                4008    LOAD_CONST              76: 8967456
+                4010    COMPARE_OP              3 (!=)
+                4012    POP_JUMP_IF_FALSE       4024
+                4016    LOAD_GLOBAL             2: print
+                4018    LOAD_CONST              5: 'Failed'
+                4020    CALL_FUNCTION           1
+                4022    RETURN_VALUE            
+                4024    LOAD_FAST               52: x52
+                4026    DUP_TOP                 
+                4028    STORE_FAST              59: covellite
+                4030    LOAD_FAST               57: x57
+                4032    DUP_TOP                 
+                4034    STORE_FAST              63: kurnakovite
+                4036    LOAD_FAST               14: x14
+                4038    DUP_TOP                 
+                4040    STORE_FAST              64: fayalite
+                4042    BUILD_TUPLE             3
+                4044    POP_TOP                 
+                4046    LOAD_FAST               59: covellite
+                4048    LOAD_CONST              16: 6
+                4050    BINARY_MULTIPLY         
+                4052    LOAD_FAST               63: kurnakovite
+                4054    LOAD_CONST              7: 3
+                4056    BINARY_SUBTRACT         
+                4058    BINARY_MULTIPLY         
+                4060    LOAD_FAST               64: fayalite
+                4062    LOAD_CONST              7: 3
+                4064    BINARY_ADD              
+                4066    BINARY_MULTIPLY         
+                4068    LOAD_CONST              77: 4088952
+                4070    COMPARE_OP              3 (!=)
+                4072    POP_JUMP_IF_FALSE       4084
+                4076    LOAD_GLOBAL             2: print
+                4078    LOAD_CONST              5: 'Failed'
+                4080    CALL_FUNCTION           1
+                4082    RETURN_VALUE            
+                4084    LOAD_FAST               57: x57
+                4086    DUP_TOP                 
+                4088    STORE_FAST              67: clinohumite
+                4090    LOAD_FAST               28: x28
+                4092    DUP_TOP                 
+                4094    STORE_FAST              62: allanite
+                4096    LOAD_FAST               37: x37
+                4098    DUP_TOP                 
+                4100    STORE_FAST              59: covellite
+                4102    BUILD_TUPLE             3
+                4104    POP_TOP                 
+                4106    LOAD_FAST               67: clinohumite
+                4108    LOAD_CONST              9: 2
+                4110    BINARY_MULTIPLY         
+                4112    LOAD_FAST               62: allanite
+                4114    LOAD_CONST              3: 4
+                4116    BINARY_SUBTRACT         
+                4118    BINARY_MULTIPLY         
+                4120    LOAD_FAST               59: covellite
+                4122    LOAD_CONST              16: 6
+                4124    BINARY_ADD              
+                4126    BINARY_MULTIPLY         
+                4128    LOAD_CONST              78: 2394750
+                4130    COMPARE_OP              3 (!=)
+                4132    POP_JUMP_IF_FALSE       4144
+                4136    LOAD_GLOBAL             2: print
+                4138    LOAD_CONST              5: 'Failed'
+                4140    CALL_FUNCTION           1
+                4142    RETURN_VALUE            
+                4144    LOAD_FAST               15: x15
+                4146    DUP_TOP                 
+                4148    STORE_FAST              58: akimotoite
+                4150    LOAD_FAST               51: x51
+                4152    DUP_TOP                 
+                4154    STORE_FAST              62: allanite
+                4156    LOAD_FAST               3: x3
+                4158    DUP_TOP                 
+                4160    STORE_FAST              65: pyrophanite
+                4162    BUILD_TUPLE             3
+                4164    POP_TOP                 
+                4166    LOAD_FAST               58: akimotoite
+                4168    LOAD_CONST              15: 9
+                4170    BINARY_MULTIPLY         
+                4172    LOAD_FAST               62: allanite
+                4174    LOAD_CONST              9: 2
+                4176    BINARY_SUBTRACT         
+                4178    BINARY_MULTIPLY         
+                4180    LOAD_FAST               65: pyrophanite
+                4182    LOAD_CONST              9: 2
+                4184    BINARY_ADD              
+                4186    BINARY_MULTIPLY         
+                4188    LOAD_CONST              79: 5000940
+                4190    COMPARE_OP              3 (!=)
+                4192    POP_JUMP_IF_FALSE       4204
+                4196    LOAD_GLOBAL             2: print
+                4198    LOAD_CONST              5: 'Failed'
+                4200    CALL_FUNCTION           1
+                4202    RETURN_VALUE            
+                4204    LOAD_FAST               27: x27
+                4206    DUP_TOP                 
+                4208    STORE_FAST              65: pyrophanite
+                4210    LOAD_FAST               11: x11
+                4212    DUP_TOP                 
+                4214    STORE_FAST              59: covellite
+                4216    LOAD_FAST               17: x17
+                4218    DUP_TOP                 
+                4220    STORE_FAST              61: chalcocite
+                4222    BUILD_TUPLE             3
+                4224    POP_TOP                 
+                4226    LOAD_FAST               65: pyrophanite
+                4228    LOAD_CONST              9: 2
+                4230    BINARY_MULTIPLY         
+                4232    LOAD_FAST               59: covellite
+                4234    LOAD_CONST              2: 8
+                4236    BINARY_SUBTRACT         
+                4238    BINARY_MULTIPLY         
+                4240    LOAD_FAST               61: chalcocite
+                4242    LOAD_CONST              12: 5
+                4244    BINARY_ADD              
+                4246    BINARY_MULTIPLY         
+                4248    LOAD_CONST              80: 2127840
+                4250    COMPARE_OP              3 (!=)
+                4252    POP_JUMP_IF_FALSE       4264
+                4256    LOAD_GLOBAL             2: print
+                4258    LOAD_CONST              5: 'Failed'
+                4260    CALL_FUNCTION           1
+                4262    RETURN_VALUE            
+                4264    LOAD_FAST               36: x36
+                4266    DUP_TOP                 
+                4268    STORE_FAST              62: allanite
+                4270    LOAD_FAST               28: x28
+                4272    DUP_TOP                 
+                4274    STORE_FAST              67: clinohumite
+                4276    LOAD_FAST               56: x56
+                4278    DUP_TOP                 
+                4280    STORE_FAST              60: halloysite
+                4282    BUILD_TUPLE             3
+                4284    POP_TOP                 
+                4286    LOAD_FAST               62: allanite
+                4288    LOAD_CONST              6: 7
+                4290    BINARY_MULTIPLY         
+                4292    LOAD_FAST               67: clinohumite
+                4294    LOAD_CONST              16: 6
+                4296    BINARY_SUBTRACT         
+                4298    BINARY_MULTIPLY         
+                4300    LOAD_FAST               60: halloysite
+                4302    LOAD_CONST              6: 7
+                4304    BINARY_ADD              
+                4306    BINARY_MULTIPLY         
+                4308    LOAD_CONST              81: 7290465
+                4310    COMPARE_OP              3 (!=)
+                4312    POP_JUMP_IF_FALSE       4324
+                4316    LOAD_GLOBAL             2: print
+                4318    LOAD_CONST              5: 'Failed'
+                4320    CALL_FUNCTION           1
+                4322    RETURN_VALUE            
+                4324    LOAD_FAST               57: x57
+                4326    DUP_TOP                 
+                4328    STORE_FAST              60: halloysite
+                4330    LOAD_FAST               9: x9
+                4332    DUP_TOP                 
+                4334    STORE_FAST              63: kurnakovite
+                4336    LOAD_FAST               30: x30
+                4338    DUP_TOP                 
+                4340    STORE_FAST              62: allanite
+                4342    BUILD_TUPLE             3
+                4344    POP_TOP                 
+                4346    LOAD_FAST               60: halloysite
+                4348    LOAD_CONST              10: 1
+                4350    BINARY_MULTIPLY         
+                4352    LOAD_FAST               63: kurnakovite
+                4354    LOAD_CONST              12: 5
+                4356    BINARY_SUBTRACT         
+                4358    BINARY_MULTIPLY         
+                4360    LOAD_FAST               62: allanite
+                4362    LOAD_CONST              10: 1
+                4364    BINARY_ADD              
+                4366    BINARY_MULTIPLY         
+                4368    LOAD_CONST              82: 1362500
+                4370    COMPARE_OP              3 (!=)
+                4372    POP_JUMP_IF_FALSE       4384
+                4376    LOAD_GLOBAL             2: print
+                4378    LOAD_CONST              5: 'Failed'
+                4380    CALL_FUNCTION           1
+                4382    RETURN_VALUE            
+                4384    LOAD_FAST               5: x5
+                4386    DUP_TOP                 
+                4388    STORE_FAST              59: covellite
+                4390    LOAD_FAST               28: x28
+                4392    DUP_TOP                 
+                4394    STORE_FAST              64: fayalite
+                4396    LOAD_FAST               50: x50
+                4398    DUP_TOP                 
+                4400    STORE_FAST              66: aerinite
+                4402    BUILD_TUPLE             3
+                4404    POP_TOP                 
+                4406    LOAD_FAST               59: covellite
+                4408    LOAD_CONST              6: 7
+                4410    BINARY_MULTIPLY         
+                4412    LOAD_FAST               64: fayalite
+                4414    LOAD_CONST              15: 9
+                4416    BINARY_SUBTRACT         
+                4418    BINARY_MULTIPLY         
+                4420    LOAD_FAST               66: aerinite
+                4422    LOAD_CONST              15: 9
+                4424    BINARY_ADD              
+                4426    BINARY_MULTIPLY         
+                4428    LOAD_CONST              83: 7114800
+                4430    COMPARE_OP              3 (!=)
+                4432    POP_JUMP_IF_FALSE       4444
+                4436    LOAD_GLOBAL             2: print
+                4438    LOAD_CONST              5: 'Failed'
+                4440    CALL_FUNCTION           1
+                4442    RETURN_VALUE            
+                4444    LOAD_FAST               27: x27
+                4446    DUP_TOP                 
+                4448    STORE_FAST              59: covellite
+                4450    LOAD_FAST               24: x24
+                4452    DUP_TOP                 
+                4454    STORE_FAST              67: clinohumite
+                4456    LOAD_FAST               29: x29
+                4458    DUP_TOP                 
+                4460    STORE_FAST              58: akimotoite
+                4462    BUILD_TUPLE             3
+                4464    POP_TOP                 
+                4466    LOAD_FAST               59: covellite
+                4468    LOAD_CONST              2: 8
+                4470    BINARY_MULTIPLY         
+                4472    LOAD_FAST               67: clinohumite
+                4474    LOAD_CONST              15: 9
+                4476    BINARY_SUBTRACT         
+                4478    BINARY_MULTIPLY         
+                4480    LOAD_FAST               58: akimotoite
+                4482    LOAD_CONST              6: 7
+                4484    BINARY_ADD              
+                4486    BINARY_MULTIPLY         
+                4488    LOAD_CONST              84: 10142080
+                4490    COMPARE_OP              3 (!=)
+                4492    POP_JUMP_IF_FALSE       4504
+                4496    LOAD_GLOBAL             2: print
+                4498    LOAD_CONST              5: 'Failed'
+                4500    CALL_FUNCTION           1
+                4502    RETURN_VALUE            
+                4504    LOAD_FAST               11: x11
+                4506    DUP_TOP                 
+                4508    STORE_FAST              61: chalcocite
+                4510    LOAD_FAST               21: x21
+                4512    DUP_TOP                 
+                4514    STORE_FAST              65: pyrophanite
+                4516    LOAD_FAST               36: x36
+                4518    DUP_TOP                 
+                4520    STORE_FAST              59: covellite
+                4522    BUILD_TUPLE             3
+                4524    POP_TOP                 
+                4526    LOAD_FAST               61: chalcocite
+                4528    LOAD_CONST              10: 1
+                4530    BINARY_MULTIPLY         
+                4532    LOAD_FAST               65: pyrophanite
+                4534    LOAD_CONST              2: 8
+                4536    BINARY_SUBTRACT         
+                4538    BINARY_MULTIPLY         
+                4540    LOAD_FAST               59: covellite
+                4542    LOAD_CONST              3: 4
+                4544    BINARY_ADD              
+                4546    BINARY_MULTIPLY         
+                4548    LOAD_CONST              85: 1232604
+                4550    COMPARE_OP              3 (!=)
+                4552    POP_JUMP_IF_FALSE       4564
+                4556    LOAD_GLOBAL             2: print
+                4558    LOAD_CONST              5: 'Failed'
+                4560    CALL_FUNCTION           1
+                4562    RETURN_VALUE            
+                4564    LOAD_FAST               30: x30
+                4566    DUP_TOP                 
+                4568    STORE_FAST              63: kurnakovite
+                4570    LOAD_FAST               48: x48
+                4572    DUP_TOP                 
+                4574    STORE_FAST              62: allanite
+                4576    LOAD_FAST               5: x5
+                4578    DUP_TOP                 
+                4580    STORE_FAST              66: aerinite
+                4582    BUILD_TUPLE             3
+                4584    POP_TOP                 
+                4586    LOAD_FAST               63: kurnakovite
+                4588    LOAD_CONST              12: 5
+                4590    BINARY_MULTIPLY         
+                4592    LOAD_FAST               62: allanite
+                4594    LOAD_CONST              2: 8
+                4596    BINARY_SUBTRACT         
+                4598    BINARY_MULTIPLY         
+                4600    LOAD_FAST               66: aerinite
+                4602    LOAD_CONST              15: 9
+                4604    BINARY_ADD              
+                4606    BINARY_MULTIPLY         
+                4608    LOAD_CONST              86: 2585520
+                4610    COMPARE_OP              3 (!=)
+                4612    POP_JUMP_IF_FALSE       4624
+                4616    LOAD_GLOBAL             2: print
+                4618    LOAD_CONST              5: 'Failed'
+                4620    CALL_FUNCTION           1
+                4622    RETURN_VALUE            
+                4624    LOAD_FAST               36: x36
+                4626    DUP_TOP                 
+                4628    STORE_FAST              63: kurnakovite
+                4630    LOAD_FAST               11: x11
+                4632    DUP_TOP                 
+                4634    STORE_FAST              58: akimotoite
+                4636    LOAD_FAST               9: x9
+                4638    DUP_TOP                 
+                4640    STORE_FAST              67: clinohumite
+                4642    BUILD_TUPLE             3
+                4644    POP_TOP                 
+                4646    LOAD_FAST               63: kurnakovite
+                4648    LOAD_CONST              16: 6
+                4650    BINARY_MULTIPLY         
+                4652    LOAD_FAST               58: akimotoite
+                4654    LOAD_CONST              3: 4
+                4656    BINARY_SUBTRACT         
+                4658    BINARY_MULTIPLY         
+                4660    LOAD_FAST               67: clinohumite
+                4662    LOAD_CONST              6: 7
+                4664    BINARY_ADD              
+                4666    BINARY_MULTIPLY         
+                4668    LOAD_CONST              87: 7105056
+                4670    COMPARE_OP              3 (!=)
+                4672    POP_JUMP_IF_FALSE       4684
+                4676    LOAD_GLOBAL             2: print
+                4678    LOAD_CONST              5: 'Failed'
+                4680    CALL_FUNCTION           1
+                4682    RETURN_VALUE            
+                4684    LOAD_FAST               0: x0
+                4686    DUP_TOP                 
+                4688    STORE_FAST              64: fayalite
+                4690    LOAD_FAST               14: x14
+                4692    DUP_TOP                 
+                4694    STORE_FAST              63: kurnakovite
+                4696    LOAD_FAST               11: x11
+                4698    DUP_TOP                 
+                4700    STORE_FAST              59: covellite
+                4702    BUILD_TUPLE             3
+                4704    POP_TOP                 
+                4706    LOAD_FAST               64: fayalite
+                4708    LOAD_CONST              7: 3
+                4710    BINARY_MULTIPLY         
+                4712    LOAD_FAST               63: kurnakovite
+                4714    LOAD_CONST              10: 1
+                4716    BINARY_SUBTRACT         
+                4718    BINARY_MULTIPLY         
+                4720    LOAD_FAST               59: covellite
+                4722    LOAD_CONST              3: 4
+                4724    BINARY_ADD              
+                4726    BINARY_MULTIPLY         
+                4728    LOAD_CONST              88: 3534300
+                4730    COMPARE_OP              3 (!=)
+                4732    POP_JUMP_IF_FALSE       4744
+                4736    LOAD_GLOBAL             2: print
+                4738    LOAD_CONST              5: 'Failed'
+                4740    CALL_FUNCTION           1
+                4742    RETURN_VALUE            
+                4744    LOAD_FAST               16: x16
+                4746    DUP_TOP                 
+                4748    STORE_FAST              66: aerinite
+                4750    LOAD_FAST               9: x9
+                4752    DUP_TOP                 
+                4754    STORE_FAST              60: halloysite
+                4756    LOAD_FAST               22: x22
+                4758    DUP_TOP                 
+                4760    STORE_FAST              59: covellite
+                4762    BUILD_TUPLE             3
+                4764    POP_TOP                 
+                4766    LOAD_FAST               66: aerinite
+                4768    LOAD_CONST              2: 8
+                4770    BINARY_MULTIPLY         
+                4772    LOAD_FAST               60: halloysite
+                4774    LOAD_CONST              3: 4
+                4776    BINARY_SUBTRACT         
+                4778    BINARY_MULTIPLY         
+                4780    LOAD_FAST               59: covellite
+                4782    LOAD_CONST              6: 7
+                4784    BINARY_ADD              
+                4786    BINARY_MULTIPLY         
+                4788    LOAD_CONST              89: 10583184
+                4790    COMPARE_OP              3 (!=)
+                4792    POP_JUMP_IF_FALSE       4804
+                4796    LOAD_GLOBAL             2: print
+                4798    LOAD_CONST              5: 'Failed'
+                4800    CALL_FUNCTION           1
+                4802    RETURN_VALUE            
+                4804    LOAD_FAST               49: x49
+                4806    DUP_TOP                 
+                4808    STORE_FAST              61: chalcocite
+                4810    LOAD_FAST               28: x28
+                4812    DUP_TOP                 
+                4814    STORE_FAST              65: pyrophanite
+                4816    LOAD_FAST               19: x19
+                4818    DUP_TOP                 
+                4820    STORE_FAST              63: kurnakovite
+                4822    BUILD_TUPLE             3
+                4824    POP_TOP                 
+                4826    LOAD_FAST               61: chalcocite
+                4828    LOAD_CONST              12: 5
+                4830    BINARY_MULTIPLY         
+                4832    LOAD_FAST               65: pyrophanite
+                4834    LOAD_CONST              16: 6
+                4836    BINARY_SUBTRACT         
+                4838    BINARY_MULTIPLY         
+                4840    LOAD_FAST               63: kurnakovite
+                4842    LOAD_CONST              15: 9
+                4844    BINARY_ADD              
+                4846    BINARY_MULTIPLY         
+                4848    LOAD_CONST              90: 2751840
+                4850    COMPARE_OP              3 (!=)
+                4852    POP_JUMP_IF_FALSE       4864
+                4856    LOAD_GLOBAL             2: print
+                4858    LOAD_CONST              5: 'Failed'
+                4860    CALL_FUNCTION           1
+                4862    RETURN_VALUE            
+                4864    LOAD_FAST               46: x46
+                4866    DUP_TOP                 
+                4868    STORE_FAST              60: halloysite
+                4870    LOAD_FAST               27: x27
+                4872    DUP_TOP                 
+                4874    STORE_FAST              65: pyrophanite
+                4876    LOAD_FAST               16: x16
+                4878    DUP_TOP                 
+                4880    STORE_FAST              58: akimotoite
+                4882    BUILD_TUPLE             3
+                4884    POP_TOP                 
+                4886    LOAD_FAST               60: halloysite
+                4888    LOAD_CONST              10: 1
+                4890    BINARY_MULTIPLY         
+                4892    LOAD_FAST               65: pyrophanite
+                4894    LOAD_CONST              10: 1
+                4896    BINARY_SUBTRACT         
+                4898    BINARY_MULTIPLY         
+                4900    LOAD_FAST               58: akimotoite
+                4902    LOAD_CONST              9: 2
+                4904    BINARY_ADD              
+                4906    BINARY_MULTIPLY         
+                4908    LOAD_CONST              91: 1211280
+                4910    COMPARE_OP              3 (!=)
+                4912    POP_JUMP_IF_FALSE       4924
+                4916    LOAD_GLOBAL             2: print
+                4918    LOAD_CONST              5: 'Failed'
+                4920    CALL_FUNCTION           1
+                4922    RETURN_VALUE            
+                4924    LOAD_FAST               1: x1
+                4926    DUP_TOP                 
+                4928    STORE_FAST              60: halloysite
+                4930    LOAD_FAST               34: x34
+                4932    DUP_TOP                 
+                4934    STORE_FAST              62: allanite
+                4936    LOAD_FAST               43: x43
+                4938    DUP_TOP                 
+                4940    STORE_FAST              61: chalcocite
+                4942    BUILD_TUPLE             3
+                4944    POP_TOP                 
+                4946    LOAD_FAST               60: halloysite
+                4948    LOAD_CONST              7: 3
+                4950    BINARY_MULTIPLY         
+                4952    LOAD_FAST               62: allanite
+                4954    LOAD_CONST              16: 6
+                4956    BINARY_SUBTRACT         
+                4958    BINARY_MULTIPLY         
+                4960    LOAD_FAST               61: chalcocite
+                4962    LOAD_CONST              9: 2
+                4964    BINARY_ADD              
+                4966    BINARY_MULTIPLY         
+                4968    LOAD_CONST              92: 3785940
+                4970    COMPARE_OP              3 (!=)
+                4972    POP_JUMP_IF_FALSE       4984
+                4976    LOAD_GLOBAL             2: print
+                4978    LOAD_CONST              5: 'Failed'
+                4980    CALL_FUNCTION           1
+                4982    RETURN_VALUE            
+                4984    LOAD_FAST               27: x27
+                4986    DUP_TOP                 
+                4988    STORE_FAST              58: akimotoite
+                4990    LOAD_FAST               45: x45
+                4992    DUP_TOP                 
+                4994    STORE_FAST              62: allanite
+                4996    LOAD_FAST               56: x56
+                4998    DUP_TOP                 
+                5000    STORE_FAST              66: aerinite
+                5002    BUILD_TUPLE             3
+                5004    POP_TOP                 
+                5006    LOAD_FAST               58: akimotoite
+                5008    LOAD_CONST              12: 5
+                5010    BINARY_MULTIPLY         
+                5012    LOAD_FAST               62: allanite
+                5014    LOAD_CONST              12: 5
+                5016    BINARY_SUBTRACT         
+                5018    BINARY_MULTIPLY         
+                5020    LOAD_FAST               66: aerinite
+                5022    LOAD_CONST              6: 7
+                5024    BINARY_ADD              
+                5026    BINARY_MULTIPLY         
+                5028    LOAD_CONST              93: 2784600
+                5030    COMPARE_OP              3 (!=)
+                5032    POP_JUMP_IF_FALSE       5044
+                5036    LOAD_GLOBAL             2: print
+                5038    LOAD_CONST              5: 'Failed'
+                5040    CALL_FUNCTION           1
+                5042    RETURN_VALUE            
+                5044    LOAD_FAST               53: x53
+                5046    DUP_TOP                 
+                5048    STORE_FAST              63: kurnakovite
+                5050    LOAD_FAST               52: x52
+                5052    DUP_TOP                 
+                5054    STORE_FAST              61: chalcocite
+                5056    LOAD_FAST               8: x8
+                5058    DUP_TOP                 
+                5060    STORE_FAST              64: fayalite
+                5062    BUILD_TUPLE             3
+                5064    POP_TOP                 
+                5066    LOAD_FAST               63: kurnakovite
+                5068    LOAD_CONST              3: 4
+                5070    BINARY_MULTIPLY         
+                5072    LOAD_FAST               61: chalcocite
+                5074    LOAD_CONST              7: 3
+                5076    BINARY_SUBTRACT         
+                5078    BINARY_MULTIPLY         
+                5080    LOAD_FAST               64: fayalite
+                5082    LOAD_CONST              6: 7
+                5084    BINARY_ADD              
+                5086    BINARY_MULTIPLY         
+                5088    LOAD_CONST              94: 1983520
+                5090    COMPARE_OP              3 (!=)
+                5092    POP_JUMP_IF_FALSE       5104
+                5096    LOAD_GLOBAL             2: print
+                5098    LOAD_CONST              5: 'Failed'
+                5100    CALL_FUNCTION           1
+                5102    RETURN_VALUE            
+                5104    LOAD_FAST               8: x8
+                5106    DUP_TOP                 
+                5108    STORE_FAST              60: halloysite
+                5110    LOAD_FAST               45: x45
+                5112    DUP_TOP                 
+                5114    STORE_FAST              58: akimotoite
+                5116    LOAD_FAST               5: x5
+                5118    DUP_TOP                 
+                5120    STORE_FAST              61: chalcocite
+                5122    BUILD_TUPLE             3
+                5124    POP_TOP                 
+                5126    LOAD_FAST               60: halloysite
+                5128    LOAD_CONST              2: 8
+                5130    BINARY_MULTIPLY         
+                5132    LOAD_FAST               58: akimotoite
+                5134    LOAD_CONST              6: 7
+                5136    BINARY_SUBTRACT         
+                5138    BINARY_MULTIPLY         
+                5140    LOAD_FAST               61: chalcocite
+                5142    LOAD_CONST              6: 7
+                5144    BINARY_ADD              
+                5146    BINARY_MULTIPLY         
+                5148    LOAD_CONST              95: 4522112
+                5150    COMPARE_OP              3 (!=)
+                5152    POP_JUMP_IF_FALSE       5164
+                5156    LOAD_GLOBAL             2: print
+                5158    LOAD_CONST              5: 'Failed'
+                5160    CALL_FUNCTION           1
+                5162    RETURN_VALUE            
+                5164    LOAD_FAST               44: x44
+                5166    DUP_TOP                 
+                5168    STORE_FAST              61: chalcocite
+                5170    LOAD_FAST               8: x8
+                5172    DUP_TOP                 
+                5174    STORE_FAST              64: fayalite
+                5176    LOAD_FAST               44: x44
+                5178    DUP_TOP                 
+                5180    STORE_FAST              67: clinohumite
+                5182    BUILD_TUPLE             3
+                5184    POP_TOP                 
+                5186    LOAD_FAST               61: chalcocite
+                5188    LOAD_CONST              16: 6
+                5190    BINARY_MULTIPLY         
+                5192    LOAD_FAST               64: fayalite
+                5194    LOAD_CONST              3: 4
+                5196    BINARY_SUBTRACT         
+                5198    BINARY_MULTIPLY         
+                5200    LOAD_FAST               67: clinohumite
+                5202    LOAD_CONST              15: 9
+                5204    BINARY_ADD              
+                5206    BINARY_MULTIPLY         
+                5208    LOAD_CONST              96: 5868720
+                5210    COMPARE_OP              3 (!=)
+                5212    POP_JUMP_IF_FALSE       5224
+                5216    LOAD_GLOBAL             2: print
+                5218    LOAD_CONST              5: 'Failed'
+                5220    CALL_FUNCTION           1
+                5222    RETURN_VALUE            
+                5224    LOAD_FAST               56: x56
+                5226    DUP_TOP                 
+                5228    STORE_FAST              61: chalcocite
+                5230    LOAD_FAST               1: x1
+                5232    DUP_TOP                 
+                5234    STORE_FAST              67: clinohumite
+                5236    LOAD_FAST               6: x6
+                5238    DUP_TOP                 
+                5240    STORE_FAST              64: fayalite
+                5242    BUILD_TUPLE             3
+                5244    POP_TOP                 
+                5246    LOAD_FAST               61: chalcocite
+                5248    LOAD_CONST              10: 1
+                5250    BINARY_MULTIPLY         
+                5252    LOAD_FAST               67: clinohumite
+                5254    LOAD_CONST              15: 9
+                5256    BINARY_SUBTRACT         
+                5258    BINARY_MULTIPLY         
+                5260    LOAD_FAST               64: fayalite
+                5262    LOAD_CONST              7: 3
+                5264    BINARY_ADD              
+                5266    BINARY_MULTIPLY         
+                5268    LOAD_CONST              97: 1086624
+                5270    COMPARE_OP              3 (!=)
+                5272    POP_JUMP_IF_FALSE       5284
+                5276    LOAD_GLOBAL             2: print
+                5278    LOAD_CONST              5: 'Failed'
+                5280    CALL_FUNCTION           1
+                5282    RETURN_VALUE            
+                5284    LOAD_FAST               6: x6
+                5286    DUP_TOP                 
+                5288    STORE_FAST              66: aerinite
+                5290    LOAD_FAST               2: x2
+                5292    DUP_TOP                 
+                5294    STORE_FAST              60: halloysite
+                5296    LOAD_FAST               16: x16
+                5298    DUP_TOP                 
+                5300    STORE_FAST              58: akimotoite
+                5302    BUILD_TUPLE             3
+                5304    POP_TOP                 
+                5306    LOAD_FAST               66: aerinite
+                5308    LOAD_CONST              6: 7
+                5310    BINARY_MULTIPLY         
+                5312    LOAD_FAST               60: halloysite
+                5314    LOAD_CONST              2: 8
+                5316    BINARY_SUBTRACT         
+                5318    BINARY_MULTIPLY         
+                5320    LOAD_FAST               58: akimotoite
+                5322    LOAD_CONST              6: 7
+                5324    BINARY_ADD              
+                5326    BINARY_MULTIPLY         
+                5328    LOAD_CONST              98: 8488375
+                5330    COMPARE_OP              3 (!=)
+                5332    POP_JUMP_IF_FALSE       5344
+                5336    LOAD_GLOBAL             2: print
+                5338    LOAD_CONST              5: 'Failed'
+                5340    CALL_FUNCTION           1
+                5342    RETURN_VALUE            
+                5344    LOAD_FAST               16: x16
+                5346    DUP_TOP                 
+                5348    STORE_FAST              65: pyrophanite
+                5350    LOAD_FAST               42: x42
+                5352    DUP_TOP                 
+                5354    STORE_FAST              66: aerinite
+                5356    LOAD_FAST               41: x41
+                5358    DUP_TOP                 
+                5360    STORE_FAST              64: fayalite
+                5362    BUILD_TUPLE             3
+                5364    POP_TOP                 
+                5366    LOAD_FAST               65: pyrophanite
+                5368    LOAD_CONST              2: 8
+                5370    BINARY_MULTIPLY         
+                5372    LOAD_FAST               66: aerinite
+                5374    LOAD_CONST              3: 4
+                5376    BINARY_SUBTRACT         
+                5378    BINARY_MULTIPLY         
+                5380    LOAD_FAST               64: fayalite
+                5382    LOAD_CONST              2: 8
+                5384    BINARY_ADD              
+                5386    BINARY_MULTIPLY         
+                5388    LOAD_CONST              99: 11388416
+                5390    COMPARE_OP              3 (!=)
+                5392    POP_JUMP_IF_FALSE       5404
+                5396    LOAD_GLOBAL             2: print
+                5398    LOAD_CONST              5: 'Failed'
+                5400    CALL_FUNCTION           1
+                5402    RETURN_VALUE            
+                5404    LOAD_FAST               29: x29
+                5406    DUP_TOP                 
+                5408    STORE_FAST              64: fayalite
+                5410    LOAD_FAST               50: x50
+                5412    DUP_TOP                 
+                5414    STORE_FAST              67: clinohumite
+                5416    LOAD_FAST               11: x11
+                5418    DUP_TOP                 
+                5420    STORE_FAST              59: covellite
+                5422    BUILD_TUPLE             3
+                5424    POP_TOP                 
+                5426    LOAD_FAST               64: fayalite
+                5428    LOAD_CONST              10: 1
+                5430    BINARY_MULTIPLY         
+                5432    LOAD_FAST               67: clinohumite
+                5434    LOAD_CONST              16: 6
+                5436    BINARY_SUBTRACT         
+                5438    BINARY_MULTIPLY         
+                5440    LOAD_FAST               59: covellite
+                5442    LOAD_CONST              2: 8
+                5444    BINARY_ADD              
+                5446    BINARY_MULTIPLY         
+                5448    LOAD_CONST              100: 1118340
+                5450    COMPARE_OP              3 (!=)
+                5452    POP_JUMP_IF_FALSE       5464
+                5456    LOAD_GLOBAL             2: print
+                5458    LOAD_CONST              5: 'Failed'
+                5460    CALL_FUNCTION           1
+                5462    RETURN_VALUE            
+                5464    LOAD_FAST               3: x3
+                5466    DUP_TOP                 
+                5468    STORE_FAST              64: fayalite
+                5470    LOAD_FAST               43: x43
+                5472    DUP_TOP                 
+                5474    STORE_FAST              59: covellite
+                5476    LOAD_FAST               2: x2
+                5478    DUP_TOP                 
+                5480    STORE_FAST              63: kurnakovite
+                5482    BUILD_TUPLE             3
+                5484    POP_TOP                 
+                5486    LOAD_FAST               64: fayalite
+                5488    LOAD_CONST              2: 8
+                5490    BINARY_MULTIPLY         
+                5492    LOAD_FAST               59: covellite
+                5494    LOAD_CONST              10: 1
+                5496    BINARY_SUBTRACT         
+                5498    BINARY_MULTIPLY         
+                5500    LOAD_FAST               63: kurnakovite
+                5502    LOAD_CONST              9: 2
+                5504    BINARY_ADD              
+                5506    BINARY_MULTIPLY         
+                5508    LOAD_CONST              101: 9789120
+                5510    COMPARE_OP              3 (!=)
+                5512    POP_JUMP_IF_FALSE       5524
+                5516    LOAD_GLOBAL             2: print
+                5518    LOAD_CONST              5: 'Failed'
+                5520    CALL_FUNCTION           1
+                5522    RETURN_VALUE            
+                5524    LOAD_FAST               0: x0
+                5526    DUP_TOP                 
+                5528    STORE_FAST              65: pyrophanite
+                5530    LOAD_FAST               25: x25
+                5532    DUP_TOP                 
+                5534    STORE_FAST              59: covellite
+                5536    LOAD_FAST               54: x54
+                5538    DUP_TOP                 
+                5540    STORE_FAST              67: clinohumite
+                5542    BUILD_TUPLE             3
+                5544    POP_TOP                 
+                5546    LOAD_FAST               65: pyrophanite
+                5548    LOAD_CONST              7: 3
+                5550    BINARY_MULTIPLY         
+                5552    LOAD_FAST               59: covellite
+                5554    LOAD_CONST              7: 3
+                5556    BINARY_SUBTRACT         
+                5558    BINARY_MULTIPLY         
+                5560    LOAD_FAST               67: clinohumite
+                5562    LOAD_CONST              9: 2
+                5564    BINARY_ADD              
+                5566    BINARY_MULTIPLY         
+                5568    LOAD_CONST              102: 1435752
+                5570    COMPARE_OP              3 (!=)
+                5572    POP_JUMP_IF_FALSE       5584
+                5576    LOAD_GLOBAL             2: print
+                5578    LOAD_CONST              5: 'Failed'
+                5580    CALL_FUNCTION           1
+                5582    RETURN_VALUE            
+                5584    LOAD_FAST               12: x12
+                5586    DUP_TOP                 
+                5588    STORE_FAST              61: chalcocite
+                5590    LOAD_FAST               34: x34
+                5592    DUP_TOP                 
+                5594    STORE_FAST              62: allanite
+                5596    LOAD_FAST               48: x48
+                5598    DUP_TOP                 
+                5600    STORE_FAST              65: pyrophanite
+                5602    BUILD_TUPLE             3
+                5604    POP_TOP                 
+                5606    LOAD_FAST               61: chalcocite
+                5608    LOAD_CONST              7: 3
+                5610    BINARY_MULTIPLY         
+                5612    LOAD_FAST               62: allanite
+                5614    LOAD_CONST              2: 8
+                5616    BINARY_SUBTRACT         
+                5618    BINARY_MULTIPLY         
+                5620    LOAD_FAST               65: pyrophanite
+                5622    LOAD_CONST              16: 6
+                5624    BINARY_ADD              
+                5626    BINARY_MULTIPLY         
+                5628    LOAD_CONST              103: 1484280
+                5630    COMPARE_OP              3 (!=)
+                5632    POP_JUMP_IF_FALSE       5644
+                5636    LOAD_GLOBAL             2: print
+                5638    LOAD_CONST              5: 'Failed'
+                5640    CALL_FUNCTION           1
+                5642    RETURN_VALUE            
+                5644    LOAD_FAST               24: x24
+                5646    DUP_TOP                 
+                5648    STORE_FAST              62: allanite
+                5650    LOAD_FAST               19: x19
+                5652    DUP_TOP                 
+                5654    STORE_FAST              66: aerinite
+                5656    LOAD_FAST               7: x7
+                5658    DUP_TOP                 
+                5660    STORE_FAST              63: kurnakovite
+                5662    BUILD_TUPLE             3
+                5664    POP_TOP                 
+                5666    LOAD_FAST               62: allanite
+                5668    LOAD_CONST              3: 4
+                5670    BINARY_MULTIPLY         
+                5672    LOAD_FAST               66: aerinite
+                5674    LOAD_CONST              12: 5
+                5676    BINARY_SUBTRACT         
+                5678    BINARY_MULTIPLY         
+                5680    LOAD_FAST               63: kurnakovite
+                5682    LOAD_CONST              6: 7
+                5684    BINARY_ADD              
+                5686    BINARY_MULTIPLY         
+                5688    LOAD_CONST              104: 4688320
+                5690    COMPARE_OP              3 (!=)
+                5692    POP_JUMP_IF_FALSE       5704
+                5696    LOAD_GLOBAL             2: print
+                5698    LOAD_CONST              5: 'Failed'
+                5700    CALL_FUNCTION           1
+                5702    RETURN_VALUE            
+                5704    LOAD_FAST               48: x48
+                5706    DUP_TOP                 
+                5708    STORE_FAST              62: allanite
+                5710    LOAD_FAST               15: x15
+                5712    DUP_TOP                 
+                5714    STORE_FAST              59: covellite
+                5716    LOAD_FAST               52: x52
+                5718    DUP_TOP                 
+                5720    STORE_FAST              67: clinohumite
+                5722    BUILD_TUPLE             3
+                5724    POP_TOP                 
+                5726    LOAD_FAST               62: allanite
+                5728    LOAD_CONST              9: 2
+                5730    BINARY_MULTIPLY         
+                5732    LOAD_FAST               59: covellite
+                5734    LOAD_CONST              2: 8
+                5736    BINARY_SUBTRACT         
+                5738    BINARY_MULTIPLY         
+                5740    LOAD_FAST               67: clinohumite
+                5742    LOAD_CONST              10: 1
+                5744    BINARY_ADD              
+                5746    BINARY_MULTIPLY         
+                5748    LOAD_CONST              105: 500000
+                5750    COMPARE_OP              3 (!=)
+                5752    POP_JUMP_IF_FALSE       5764
+                5756    LOAD_GLOBAL             2: print
+                5758    LOAD_CONST              5: 'Failed'
+                5760    CALL_FUNCTION           1
+                5762    RETURN_VALUE            
+                5764    LOAD_FAST               35: x35
+                5766    DUP_TOP                 
+                5768    STORE_FAST              58: akimotoite
+                5770    LOAD_FAST               30: x30
+                5772    DUP_TOP                 
+                5774    STORE_FAST              61: chalcocite
+                5776    LOAD_FAST               4: x4
+                5778    DUP_TOP                 
+                5780    STORE_FAST              65: pyrophanite
+                5782    BUILD_TUPLE             3
+                5784    POP_TOP                 
+                5786    LOAD_FAST               58: akimotoite
+                5788    LOAD_CONST              15: 9
+                5790    BINARY_MULTIPLY         
+                5792    LOAD_FAST               61: chalcocite
+                5794    LOAD_CONST              3: 4
+                5796    BINARY_SUBTRACT         
+                5798    BINARY_MULTIPLY         
+                5800    LOAD_FAST               65: pyrophanite
+                5802    LOAD_CONST              6: 7
+                5804    BINARY_ADD              
+                5806    BINARY_MULTIPLY         
+                5808    LOAD_CONST              106: 11559600
+                5810    COMPARE_OP              3 (!=)
+                5812    POP_JUMP_IF_FALSE       5824
+                5816    LOAD_GLOBAL             2: print
+                5818    LOAD_CONST              5: 'Failed'
+                5820    CALL_FUNCTION           1
+                5822    RETURN_VALUE            
+                5824    LOAD_FAST               41: x41
+                5826    DUP_TOP                 
+                5828    STORE_FAST              64: fayalite
+                5830    LOAD_FAST               44: x44
+                5832    DUP_TOP                 
+                5834    STORE_FAST              59: covellite
+                5836    LOAD_FAST               14: x14
+                5838    DUP_TOP                 
+                5840    STORE_FAST              66: aerinite
+                5842    BUILD_TUPLE             3
+                5844    POP_TOP                 
+                5846    LOAD_FAST               64: fayalite
+                5848    LOAD_CONST              15: 9
+                5850    BINARY_MULTIPLY         
+                5852    LOAD_FAST               59: covellite
+                5854    LOAD_CONST              16: 6
+                5856    BINARY_SUBTRACT         
+                5858    BINARY_MULTIPLY         
+                5860    LOAD_FAST               66: aerinite
+                5862    LOAD_CONST              12: 5
+                5864    BINARY_ADD              
+                5866    BINARY_MULTIPLY         
+                5868    LOAD_CONST              107: 10034928
+                5870    COMPARE_OP              3 (!=)
+                5872    POP_JUMP_IF_FALSE       5884
+                5876    LOAD_GLOBAL             2: print
+                5878    LOAD_CONST              5: 'Failed'
+                5880    CALL_FUNCTION           1
+                5882    RETURN_VALUE            
+                5884    LOAD_FAST               32: x32
+                5886    DUP_TOP                 
+                5888    STORE_FAST              64: fayalite
+                5890    LOAD_FAST               7: x7
+                5892    DUP_TOP                 
+                5894    STORE_FAST              60: halloysite
+                5896    LOAD_FAST               53: x53
+                5898    DUP_TOP                 
+                5900    STORE_FAST              63: kurnakovite
+                5902    BUILD_TUPLE             3
+                5904    POP_TOP                 
+                5906    LOAD_FAST               64: fayalite
+                5908    LOAD_CONST              9: 2
+                5910    BINARY_MULTIPLY         
+                5912    LOAD_FAST               60: halloysite
+                5914    LOAD_CONST              6: 7
+                5916    BINARY_SUBTRACT         
+                5918    BINARY_MULTIPLY         
+                5920    LOAD_FAST               63: kurnakovite
+                5922    LOAD_CONST              12: 5
+                5924    BINARY_ADD              
+                5926    BINARY_MULTIPLY         
+                5928    LOAD_CONST              108: 2039400
+                5930    COMPARE_OP              3 (!=)
+                5932    POP_JUMP_IF_FALSE       5944
+                5936    LOAD_GLOBAL             2: print
+                5938    LOAD_CONST              5: 'Failed'
+                5940    CALL_FUNCTION           1
+                5942    RETURN_VALUE            
+                5944    LOAD_FAST               55: x55
+                5946    DUP_TOP                 
+                5948    STORE_FAST              64: fayalite
+                5950    LOAD_FAST               43: x43
+                5952    DUP_TOP                 
+                5954    STORE_FAST              66: aerinite
+                5956    LOAD_FAST               19: x19
+                5958    DUP_TOP                 
+                5960    STORE_FAST              65: pyrophanite
+                5962    BUILD_TUPLE             3
+                5964    POP_TOP                 
+                5966    LOAD_FAST               64: fayalite
+                5968    LOAD_CONST              15: 9
+                5970    BINARY_MULTIPLY         
+                5972    LOAD_FAST               66: aerinite
+                5974    LOAD_CONST              15: 9
+                5976    BINARY_SUBTRACT         
+                5978    BINARY_MULTIPLY         
+                5980    LOAD_FAST               65: pyrophanite
+                5982    LOAD_CONST              7: 3
+                5984    BINARY_ADD              
+                5986    BINARY_MULTIPLY         
+                5988    LOAD_CONST              109: 10577952
+                5990    COMPARE_OP              3 (!=)
+                5992    POP_JUMP_IF_FALSE       6004
+                5996    LOAD_GLOBAL             2: print
+                5998    LOAD_CONST              5: 'Failed'
+                6000    CALL_FUNCTION           1
+                6002    RETURN_VALUE            
+                6004    LOAD_FAST               56: x56
+                6006    DUP_TOP                 
+                6008    STORE_FAST              65: pyrophanite
+                6010    LOAD_FAST               48: x48
+                6012    DUP_TOP                 
+                6014    STORE_FAST              64: fayalite
+                6016    LOAD_FAST               10: x10
+                6018    DUP_TOP                 
+                6020    STORE_FAST              66: aerinite
+                6022    BUILD_TUPLE             3
+                6024    POP_TOP                 
+                6026    LOAD_FAST               65: pyrophanite
+                6028    LOAD_CONST              3: 4
+                6030    BINARY_MULTIPLY         
+                6032    LOAD_FAST               64: fayalite
+                6034    LOAD_CONST              12: 5
+                6036    BINARY_SUBTRACT         
+                6038    BINARY_MULTIPLY         
+                6040    LOAD_FAST               66: aerinite
+                6042    LOAD_CONST              15: 9
+                6044    BINARY_ADD              
+                6046    BINARY_MULTIPLY         
+                6048    LOAD_CONST              110: 2099160
+                6050    COMPARE_OP              3 (!=)
+                6052    POP_JUMP_IF_FALSE       6064
+                6056    LOAD_GLOBAL             2: print
+                6058    LOAD_CONST              5: 'Failed'
+                6060    CALL_FUNCTION           1
+                6062    RETURN_VALUE            
+                6064    LOAD_FAST               12: x12
+                6066    DUP_TOP                 
+                6068    STORE_FAST              65: pyrophanite
+                6070    LOAD_FAST               32: x32
+                6072    DUP_TOP                 
+                6074    STORE_FAST              59: covellite
+                6076    LOAD_FAST               18: x18
+                6078    DUP_TOP                 
+                6080    STORE_FAST              58: akimotoite
+                6082    BUILD_TUPLE             3
+                6084    POP_TOP                 
+                6086    LOAD_FAST               65: pyrophanite
+                6088    LOAD_CONST              2: 8
+                6090    BINARY_MULTIPLY         
+                6092    LOAD_FAST               59: covellite
+                6094    LOAD_CONST              7: 3
+                6096    BINARY_SUBTRACT         
+                6098    BINARY_MULTIPLY         
+                6100    LOAD_FAST               58: akimotoite
+                6102    LOAD_CONST              3: 4
+                6104    BINARY_ADD              
+                6106    BINARY_MULTIPLY         
+                6108    LOAD_CONST              111: 9270480
+                6110    COMPARE_OP              3 (!=)
+                6112    POP_JUMP_IF_FALSE       6124
+                6116    LOAD_GLOBAL             2: print
+                6118    LOAD_CONST              5: 'Failed'
+                6120    CALL_FUNCTION           1
+                6122    RETURN_VALUE            
+                6124    LOAD_GLOBAL             2: print
+                6126    LOAD_CONST              112: 'Success'
+                6128    CALL_FUNCTION           1
+                6130    RETURN_VALUE            
+        'fun'
+        None
+    [Disassembly]
+        0       LOAD_CONST              0: <CODE> fun
+        2       LOAD_CONST              1: 'fun'
+        4       MAKE_FUNCTION           0
+        6       STORE_NAME              0: fun
+        8       LOAD_NAME               0: fun
+        10      CALL_FUNCTION           0
+        12      POP_TOP                 
+        14      LOAD_CONST              2: None
+        16      RETURN_VALUE            
