@@ -1,4 +1,4 @@
 ## DiceCTF 2021
 - pwn
-    + babyrop
-    + flippidy
+    + [babyrop](./babyrop/)
+    + [flippidy](./flippidy/)

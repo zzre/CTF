@@ -1,0 +1,663 @@
+; bool Trompe_Loeil.M.T(string)
+; Prolog
+0000000000003CB0 4157                 push      r15
+0000000000003CB2 4156                 push      r14
+0000000000003CB4 57                   push      rdi
+0000000000003CB5 56                   push      rsi
+0000000000003CB6 55                   push      rbp
+0000000000003CB7 53                   push      rbx
+0000000000003CB8 4883EC28             sub       rsp,28h
+0000000000003CBC 33C0                 xor       eax,eax
+0000000000003CBE 4889442420           mov       [rsp+20h],rax
+0000000000003CC3 488BD9               mov       rbx,rcx; rcx = Parameter 0
+; IL_0000
+0000000000003CC6 FF152C850000         call      qword [rel 0`C1F8h] ; System.Collections.Generic.List`1<string> (NEW_OBJECT)
+0000000000003CCC 488BF0               mov       rsi,rax
+0000000000003CCF 488BCE               mov       rcx,rsi;
+0000000000003CD2 FF1550860000         call      qword [rel 0`C328h] ; void System.Collections.Generic.List`1<__Canon>..ctor() (METHOD_ENTRY)
+; IL_0005
+0000000000003CD8 488B1539880000       mov       rdx,[rel 0`C518h]
+0000000000003CDF 488B12               mov       rdx,[rdx]
+0000000000003CE2 488BCE               mov       rcx,rsi;
+0000000000003CE5 4C8D1D64840000       lea       r11,[rel 0`C150h]
+0000000000003CEC 41FF13               call      qword [r11]
+; IL_0010
+0000000000003CEF 488B152A880000       mov       rdx,[rel 0`C520h]
+0000000000003CF6 488B12               mov       rdx,[rdx]
+0000000000003CF9 488BCE               mov       rcx,rsi;
+0000000000003CFC 4C8D1D4D840000       lea       r11,[rel 0`C150h]
+0000000000003D03 41FF13               call      qword [r11]
+; IL_001b
+0000000000003D06 488B151B880000       mov       rdx,[rel 0`C528h]
+0000000000003D0D 488B12               mov       rdx,[rdx]
+0000000000003D10 488BCE               mov       rcx,rsi;
+0000000000003D13 4C8D1D36840000       lea       r11,[rel 0`C150h]
+0000000000003D1A 41FF13               call      qword [r11]
+; IL_0026
+0000000000003D1D 488B150C880000       mov       rdx,[rel 0`C530h]
+0000000000003D24 488B12               mov       rdx,[rdx]
+0000000000003D27 488BCE               mov       rcx,rsi;
+0000000000003D2A 4C8D1D1F840000       lea       r11,[rel 0`C150h]
+0000000000003D31 41FF13               call      qword [r11]
+; IL_0031
+0000000000003D34 488B15FD870000       mov       rdx,[rel 0`C538h]
+0000000000003D3B 488B12               mov       rdx,[rdx]
+0000000000003D3E 488BCE               mov       rcx,rsi;
+0000000000003D41 4C8D1D08840000       lea       r11,[rel 0`C150h]
+0000000000003D48 41FF13               call      qword [r11]
+; IL_003c
+0000000000003D4B 488B15EE870000       mov       rdx,[rel 0`C540h]
+0000000000003D52 488B12               mov       rdx,[rdx]
+0000000000003D55 488BCE               mov       rcx,rsi;
+0000000000003D58 4C8D1DF1830000       lea       r11,[rel 0`C150h]
+0000000000003D5F 41FF13               call      qword [r11]
+; IL_0047
+0000000000003D62 488B15DF870000       mov       rdx,[rel 0`C548h]
+0000000000003D69 488B12               mov       rdx,[rdx]
+0000000000003D6C 488BCE               mov       rcx,rsi;
+0000000000003D6F 4C8D1DDA830000       lea       r11,[rel 0`C150h]
+0000000000003D76 41FF13               call      qword [r11]
+; IL_0052
+0000000000003D79 488B15D0870000       mov       rdx,[rel 0`C550h]
+0000000000003D80 488B3A               mov       rdi,[rdx]
+0000000000003D83 488BD7               mov       rdx,rdi
+0000000000003D86 488BCE               mov       rcx,rsi;
+0000000000003D89 4C8D1DC0830000       lea       r11,[rel 0`C150h]
+0000000000003D90 41FF13               call      qword [r11]
+; IL_005d
+0000000000003D93 488B15BE870000       mov       rdx,[rel 0`C558h]
+0000000000003D9A 488B12               mov       rdx,[rdx]
+0000000000003D9D 488BCE               mov       rcx,rsi;
+0000000000003DA0 4C8D1DA9830000       lea       r11,[rel 0`C150h]
+0000000000003DA7 41FF13               call      qword [r11]
+; IL_0068
+0000000000003DAA 488B15AF870000       mov       rdx,[rel 0`C560h]
+0000000000003DB1 488B12               mov       rdx,[rdx]
+0000000000003DB4 488BCE               mov       rcx,rsi;
+0000000000003DB7 4C8D1D92830000       lea       r11,[rel 0`C150h]
+0000000000003DBE 41FF13               call      qword [r11]
+; IL_0073
+0000000000003DC1 488B15A0870000       mov       rdx,[rel 0`C568h]
+0000000000003DC8 488B12               mov       rdx,[rdx]
+0000000000003DCB 488BCE               mov       rcx,rsi;
+0000000000003DCE 4C8D1D7B830000       lea       r11,[rel 0`C150h]
+0000000000003DD5 41FF13               call      qword [r11]
+; IL_007e
+0000000000003DD8 488B1591870000       mov       rdx,[rel 0`C570h]
+0000000000003DDF 488B12               mov       rdx,[rdx]
+0000000000003DE2 488BCE               mov       rcx,rsi;
+0000000000003DE5 4C8D1D64830000       lea       r11,[rel 0`C150h]
+0000000000003DEC 41FF13               call      qword [r11]
+; IL_0089
+0000000000003DEF 488B1582870000       mov       rdx,[rel 0`C578h]
+0000000000003DF6 488B12               mov       rdx,[rdx]
+0000000000003DF9 488BCE               mov       rcx,rsi;
+0000000000003DFC 4C8D1D4D830000       lea       r11,[rel 0`C150h]
+0000000000003E03 41FF13               call      qword [r11]
+; IL_0094
+0000000000003E06 488B1573870000       mov       rdx,[rel 0`C580h]
+0000000000003E0D 488B12               mov       rdx,[rdx]
+0000000000003E10 488BCE               mov       rcx,rsi;
+0000000000003E13 4C8D1D36830000       lea       r11,[rel 0`C150h]
+0000000000003E1A 41FF13               call      qword [r11]
+; IL_009f
+0000000000003E1D 488B1564870000       mov       rdx,[rel 0`C588h]
+0000000000003E24 488B12               mov       rdx,[rdx]
+0000000000003E27 488BCE               mov       rcx,rsi;
+0000000000003E2A 4C8D1D1F830000       lea       r11,[rel 0`C150h]
+0000000000003E31 41FF13               call      qword [r11]
+; IL_00aa
+0000000000003E34 488B1555870000       mov       rdx,[rel 0`C590h]
+0000000000003E3B 488B12               mov       rdx,[rdx]
+0000000000003E3E 488BCE               mov       rcx,rsi;
+0000000000003E41 4C8D1D08830000       lea       r11,[rel 0`C150h]
+0000000000003E48 41FF13               call      qword [r11]
+; IL_00b5
+0000000000003E4B 488B1546870000       mov       rdx,[rel 0`C598h]
+0000000000003E52 488B12               mov       rdx,[rdx]
+0000000000003E55 488BCE               mov       rcx,rsi;
+0000000000003E58 4C8D1DF1820000       lea       r11,[rel 0`C150h]
+0000000000003E5F 41FF13               call      qword [r11]
+; IL_00c0
+0000000000003E62 488B1537870000       mov       rdx,[rel 0`C5A0h]
+0000000000003E69 488B12               mov       rdx,[rdx]
+0000000000003E6C 488BCE               mov       rcx,rsi;
+0000000000003E6F 4C8D1DDA820000       lea       r11,[rel 0`C150h]
+0000000000003E76 41FF13               call      qword [r11]
+; IL_00cb
+0000000000003E79 488B1528870000       mov       rdx,[rel 0`C5A8h]
+0000000000003E80 488B12               mov       rdx,[rdx]
+0000000000003E83 488BCE               mov       rcx,rsi;
+0000000000003E86 4C8D1DC3820000       lea       r11,[rel 0`C150h]
+0000000000003E8D 41FF13               call      qword [r11]
+; IL_00d6
+0000000000003E90 488B1519870000       mov       rdx,[rel 0`C5B0h]
+0000000000003E97 488B12               mov       rdx,[rdx]
+0000000000003E9A 488BCE               mov       rcx,rsi;
+0000000000003E9D 4C8D1DAC820000       lea       r11,[rel 0`C150h]
+0000000000003EA4 41FF13               call      qword [r11]
+; IL_00e1
+0000000000003EA7 488B150A870000       mov       rdx,[rel 0`C5B8h]
+0000000000003EAE 488B12               mov       rdx,[rdx]
+0000000000003EB1 488BCE               mov       rcx,rsi;
+0000000000003EB4 4C8D1D95820000       lea       r11,[rel 0`C150h]
+0000000000003EBB 41FF13               call      qword [r11]
+; IL_00ec
+0000000000003EBE 488B15FB860000       mov       rdx,[rel 0`C5C0h]
+0000000000003EC5 488B12               mov       rdx,[rdx]
+0000000000003EC8 488BCE               mov       rcx,rsi;
+0000000000003ECB 4C8D1D7E820000       lea       r11,[rel 0`C150h]
+0000000000003ED2 41FF13               call      qword [r11]
+; IL_00f7
+0000000000003ED5 488B15EC860000       mov       rdx,[rel 0`C5C8h]
+0000000000003EDC 488B12               mov       rdx,[rdx]
+0000000000003EDF 488BCE               mov       rcx,rsi;
+0000000000003EE2 4C8D1D67820000       lea       r11,[rel 0`C150h]
+0000000000003EE9 41FF13               call      qword [r11]
+; IL_0102
+0000000000003EEC 488B15DD860000       mov       rdx,[rel 0`C5D0h]
+0000000000003EF3 488B12               mov       rdx,[rdx]
+0000000000003EF6 488BCE               mov       rcx,rsi;
+0000000000003EF9 4C8D1D50820000       lea       r11,[rel 0`C150h]
+0000000000003F00 41FF13               call      qword [r11]
+; IL_010d
+0000000000003F03 488B15CE860000       mov       rdx,[rel 0`C5D8h]
+0000000000003F0A 488B12               mov       rdx,[rdx]
+0000000000003F0D 488BCE               mov       rcx,rsi;
+0000000000003F10 4C8D1D39820000       lea       r11,[rel 0`C150h]
+0000000000003F17 41FF13               call      qword [r11]
+; IL_0118
+0000000000003F1A 488B15BF860000       mov       rdx,[rel 0`C5E0h]
+0000000000003F21 488B12               mov       rdx,[rdx]
+0000000000003F24 488BCE               mov       rcx,rsi;
+0000000000003F27 4C8D1D22820000       lea       r11,[rel 0`C150h]
+0000000000003F2E 41FF13               call      qword [r11]
+; IL_0123
+0000000000003F31 488B15B0860000       mov       rdx,[rel 0`C5E8h]
+0000000000003F38 488B12               mov       rdx,[rdx]
+0000000000003F3B 488BCE               mov       rcx,rsi;
+0000000000003F3E 4C8D1D0B820000       lea       r11,[rel 0`C150h]
+0000000000003F45 41FF13               call      qword [r11]
+; IL_012e
+0000000000003F48 488B15A1860000       mov       rdx,[rel 0`C5F0h]
+0000000000003F4F 488B12               mov       rdx,[rdx]
+0000000000003F52 488BCE               mov       rcx,rsi;
+0000000000003F55 4C8D1DF4810000       lea       r11,[rel 0`C150h]
+0000000000003F5C 41FF13               call      qword [r11]
+; IL_0139
+0000000000003F5F 488B1592860000       mov       rdx,[rel 0`C5F8h]
+0000000000003F66 488B12               mov       rdx,[rdx]
+0000000000003F69 488BCE               mov       rcx,rsi;
+0000000000003F6C 4C8D1DDD810000       lea       r11,[rel 0`C150h]
+0000000000003F73 41FF13               call      qword [r11]
+; IL_0144
+0000000000003F76 488B1583860000       mov       rdx,[rel 0`C600h]
+0000000000003F7D 488B12               mov       rdx,[rdx]
+0000000000003F80 488BCE               mov       rcx,rsi;
+0000000000003F83 4C8D1DC6810000       lea       r11,[rel 0`C150h]
+0000000000003F8A 41FF13               call      qword [r11]
+; IL_014f
+0000000000003F8D 488B1574860000       mov       rdx,[rel 0`C608h]
+0000000000003F94 488B12               mov       rdx,[rdx]
+0000000000003F97 488BCE               mov       rcx,rsi;
+0000000000003F9A 4C8D1DAF810000       lea       r11,[rel 0`C150h]
+0000000000003FA1 41FF13               call      qword [r11]
+; IL_015a
+0000000000003FA4 488B1565860000       mov       rdx,[rel 0`C610h]
+0000000000003FAB 488B12               mov       rdx,[rdx]
+0000000000003FAE 488BCE               mov       rcx,rsi;
+0000000000003FB1 4C8D1D98810000       lea       r11,[rel 0`C150h]
+0000000000003FB8 41FF13               call      qword [r11]
+; IL_0165
+0000000000003FBB 488B1556860000       mov       rdx,[rel 0`C618h]
+0000000000003FC2 488B12               mov       rdx,[rdx]
+0000000000003FC5 488BCE               mov       rcx,rsi;
+0000000000003FC8 4C8D1D81810000       lea       r11,[rel 0`C150h]
+0000000000003FCF 41FF13               call      qword [r11]
+; IL_0170
+0000000000003FD2 488BD7               mov       rdx,rdi
+0000000000003FD5 488BCE               mov       rcx,rsi;
+0000000000003FD8 4C8D1D71810000       lea       r11,[rel 0`C150h]
+0000000000003FDF 41FF13               call      qword [r11]
+; IL_017b
+0000000000003FE2 488B1537860000       mov       rdx,[rel 0`C620h]
+0000000000003FE9 488B12               mov       rdx,[rdx]
+0000000000003FEC 488BCE               mov       rcx,rsi;
+0000000000003FEF 4C8D1D5A810000       lea       r11,[rel 0`C150h]
+0000000000003FF6 41FF13               call      qword [r11]
+; IL_0186
+0000000000003FF9 488B1528860000       mov       rdx,[rel 0`C628h]
+0000000000004000 488B12               mov       rdx,[rdx]
+0000000000004003 488BCE               mov       rcx,rsi;
+0000000000004006 4C8D1D43810000       lea       r11,[rel 0`C150h]
+000000000000400D 41FF13               call      qword [r11]
+; IL_0191
+0000000000004010 488B1519860000       mov       rdx,[rel 0`C630h]
+0000000000004017 488B12               mov       rdx,[rdx]
+000000000000401A 488BCE               mov       rcx,rsi;
+000000000000401D 4C8D1D2C810000       lea       r11,[rel 0`C150h]
+0000000000004024 41FF13               call      qword [r11]
+; IL_019c
+0000000000004027 488B150A860000       mov       rdx,[rel 0`C638h]
+000000000000402E 488B12               mov       rdx,[rdx]
+0000000000004031 488BCE               mov       rcx,rsi;
+0000000000004034 4C8D1D15810000       lea       r11,[rel 0`C150h]
+000000000000403B 41FF13               call      qword [r11]
+; IL_01a7
+000000000000403E 488B15FB850000       mov       rdx,[rel 0`C640h]
+0000000000004045 488B12               mov       rdx,[rdx]
+0000000000004048 488BCE               mov       rcx,rsi;
+000000000000404B 4C8D1DFE800000       lea       r11,[rel 0`C150h]
+0000000000004052 41FF13               call      qword [r11]
+; IL_01b2
+0000000000004055 488B15EC850000       mov       rdx,[rel 0`C648h]
+000000000000405C 488B12               mov       rdx,[rdx]
+000000000000405F 488BCE               mov       rcx,rsi;
+0000000000004062 4C8D1DE7800000       lea       r11,[rel 0`C150h]
+0000000000004069 41FF13               call      qword [r11]
+; IL_01bd
+000000000000406C 488B15DD850000       mov       rdx,[rel 0`C650h]
+0000000000004073 488B12               mov       rdx,[rdx]
+0000000000004076 488BCE               mov       rcx,rsi;
+0000000000004079 4C8D1DD0800000       lea       r11,[rel 0`C150h]
+0000000000004080 41FF13               call      qword [r11]
+; IL_01c8
+0000000000004083 488B15CE850000       mov       rdx,[rel 0`C658h]
+000000000000408A 488B12               mov       rdx,[rdx]
+000000000000408D 488BCE               mov       rcx,rsi;
+0000000000004090 4C8D1DB9800000       lea       r11,[rel 0`C150h]
+0000000000004097 41FF13               call      qword [r11]
+; IL_01d3
+000000000000409A 488B15BF850000       mov       rdx,[rel 0`C660h]
+00000000000040A1 488B12               mov       rdx,[rdx]
+00000000000040A4 488BCE               mov       rcx,rsi;
+00000000000040A7 4C8D1DA2800000       lea       r11,[rel 0`C150h]
+00000000000040AE 41FF13               call      qword [r11]
+; IL_01de
+00000000000040B1 488B15B0850000       mov       rdx,[rel 0`C668h]
+00000000000040B8 488B12               mov       rdx,[rdx]
+00000000000040BB 488BCE               mov       rcx,rsi;
+00000000000040BE 4C8D1D8B800000       lea       r11,[rel 0`C150h]
+00000000000040C5 41FF13               call      qword [r11]
+; IL_01ea
+00000000000040C8 FF152A810000         call      qword [rel 0`C1F8h] ; System.Collections.Generic.List`1<string> (NEW_OBJECT)
+00000000000040CE 488BF8               mov       rdi,rax
+00000000000040D1 488BCF               mov       rcx,rdi;
+00000000000040D4 FF154E820000         call      qword [rel 0`C328h] ; void System.Collections.Generic.List`1<__Canon>..ctor() (METHOD_ENTRY)
+; IL_01ef
+00000000000040DA 488B158F850000       mov       rdx,[rel 0`C670h]
+00000000000040E1 488B12               mov       rdx,[rdx]
+00000000000040E4 488BCF               mov       rcx,rdi;
+00000000000040E7 4C8D1D62800000       lea       r11,[rel 0`C150h]
+00000000000040EE 41FF13               call      qword [r11]
+; IL_01fa
+00000000000040F1 488B1580850000       mov       rdx,[rel 0`C678h]
+00000000000040F8 488B12               mov       rdx,[rdx]
+00000000000040FB 488BCF               mov       rcx,rdi;
+00000000000040FE 4C8D1D4B800000       lea       r11,[rel 0`C150h]
+0000000000004105 41FF13               call      qword [r11]
+; IL_0205
+0000000000004108 488B1571850000       mov       rdx,[rel 0`C680h]
+000000000000410F 488B12               mov       rdx,[rdx]
+0000000000004112 488BCF               mov       rcx,rdi;
+0000000000004115 4C8D1D34800000       lea       r11,[rel 0`C150h]
+000000000000411C 41FF13               call      qword [r11]
+; IL_0210
+000000000000411F 488B1562850000       mov       rdx,[rel 0`C688h]
+0000000000004126 488B12               mov       rdx,[rdx]
+0000000000004129 488BCF               mov       rcx,rdi;
+000000000000412C 4C8D1D1D800000       lea       r11,[rel 0`C150h]
+0000000000004133 41FF13               call      qword [r11]
+; IL_021b
+0000000000004136 488B1553850000       mov       rdx,[rel 0`C690h]
+000000000000413D 488B12               mov       rdx,[rdx]
+0000000000004140 488BCF               mov       rcx,rdi;
+0000000000004143 4C8D1D06800000       lea       r11,[rel 0`C150h]
+000000000000414A 41FF13               call      qword [r11]
+; IL_0226
+000000000000414D 488B1544850000       mov       rdx,[rel 0`C698h]
+0000000000004154 488B12               mov       rdx,[rdx]
+0000000000004157 488BCF               mov       rcx,rdi;
+000000000000415A 4C8D1DEF7F0000       lea       r11,[rel 0`C150h]
+0000000000004161 41FF13               call      qword [r11]
+; IL_0231
+0000000000004164 488B1535850000       mov       rdx,[rel 0`C6A0h]
+000000000000416B 488B12               mov       rdx,[rdx]
+000000000000416E 488BCF               mov       rcx,rdi;
+0000000000004171 4C8D1DD87F0000       lea       r11,[rel 0`C150h]
+0000000000004178 41FF13               call      qword [r11]
+; IL_023c
+000000000000417B 488B1526850000       mov       rdx,[rel 0`C6A8h]
+0000000000004182 488B12               mov       rdx,[rdx]
+0000000000004185 488BCF               mov       rcx,rdi;
+0000000000004188 4C8D1DC17F0000       lea       r11,[rel 0`C150h]
+000000000000418F 41FF13               call      qword [r11]
+; IL_0247
+0000000000004192 488B1517850000       mov       rdx,[rel 0`C6B0h]
+0000000000004199 488B12               mov       rdx,[rdx]
+000000000000419C 488BCF               mov       rcx,rdi;
+000000000000419F 4C8D1DAA7F0000       lea       r11,[rel 0`C150h]
+00000000000041A6 41FF13               call      qword [r11]
+; IL_0252
+00000000000041A9 488B1508850000       mov       rdx,[rel 0`C6B8h]
+00000000000041B0 488B12               mov       rdx,[rdx]
+00000000000041B3 488BCF               mov       rcx,rdi;
+00000000000041B6 4C8D1D937F0000       lea       r11,[rel 0`C150h]
+00000000000041BD 41FF13               call      qword [r11]
+; IL_025d
+00000000000041C0 488B15F9840000       mov       rdx,[rel 0`C6C0h]
+00000000000041C7 488B2A               mov       rbp,[rdx]
+00000000000041CA 488BD5               mov       rdx,rbp
+00000000000041CD 488BCF               mov       rcx,rdi;
+00000000000041D0 4C8D1D797F0000       lea       r11,[rel 0`C150h]
+00000000000041D7 41FF13               call      qword [r11]
+; IL_0268
+00000000000041DA 488B15E7840000       mov       rdx,[rel 0`C6C8h]
+00000000000041E1 488B12               mov       rdx,[rdx]
+00000000000041E4 488BCF               mov       rcx,rdi;
+00000000000041E7 4C8D1D627F0000       lea       r11,[rel 0`C150h]
+00000000000041EE 41FF13               call      qword [r11]
+; IL_0273
+00000000000041F1 488B15D8840000       mov       rdx,[rel 0`C6D0h]
+00000000000041F8 488B12               mov       rdx,[rdx]
+00000000000041FB 488BCF               mov       rcx,rdi;
+00000000000041FE 4C8D1D4B7F0000       lea       r11,[rel 0`C150h]
+0000000000004205 41FF13               call      qword [r11]
+; IL_027e
+0000000000004208 488B15C9840000       mov       rdx,[rel 0`C6D8h]
+000000000000420F 488B12               mov       rdx,[rdx]
+0000000000004212 488BCF               mov       rcx,rdi;
+0000000000004215 4C8D1D347F0000       lea       r11,[rel 0`C150h]
+000000000000421C 41FF13               call      qword [r11]
+; IL_0289
+000000000000421F 488B15BA840000       mov       rdx,[rel 0`C6E0h]
+0000000000004226 488B12               mov       rdx,[rdx]
+0000000000004229 488BCF               mov       rcx,rdi;
+000000000000422C 4C8D1D1D7F0000       lea       r11,[rel 0`C150h]
+0000000000004233 41FF13               call      qword [r11]
+; IL_0294
+0000000000004236 488B15AB840000       mov       rdx,[rel 0`C6E8h]
+000000000000423D 488B12               mov       rdx,[rdx]
+0000000000004240 488BCF               mov       rcx,rdi;
+0000000000004243 4C8D1D067F0000       lea       r11,[rel 0`C150h]
+000000000000424A 41FF13               call      qword [r11]
+; IL_029f
+000000000000424D 488B159C840000       mov       rdx,[rel 0`C6F0h]
+0000000000004254 488B12               mov       rdx,[rdx]
+0000000000004257 488BCF               mov       rcx,rdi;
+000000000000425A 4C8D1DEF7E0000       lea       r11,[rel 0`C150h]
+0000000000004261 41FF13               call      qword [r11]
+; IL_02aa
+0000000000004264 488B158D840000       mov       rdx,[rel 0`C6F8h]
+000000000000426B 488B12               mov       rdx,[rdx]
+000000000000426E 488BCF               mov       rcx,rdi;
+0000000000004271 4C8D1DD87E0000       lea       r11,[rel 0`C150h]
+0000000000004278 41FF13               call      qword [r11]
+; IL_02b5
+000000000000427B 488B157E840000       mov       rdx,[rel 0`C700h]
+0000000000004282 488B12               mov       rdx,[rdx]
+0000000000004285 488BCF               mov       rcx,rdi;
+0000000000004288 4C8D1DC17E0000       lea       r11,[rel 0`C150h]
+000000000000428F 41FF13               call      qword [r11]
+; IL_02c0
+0000000000004292 488B156F840000       mov       rdx,[rel 0`C708h]
+0000000000004299 488B12               mov       rdx,[rdx]
+000000000000429C 488BCF               mov       rcx,rdi;
+000000000000429F 4C8D1DAA7E0000       lea       r11,[rel 0`C150h]
+00000000000042A6 41FF13               call      qword [r11]
+; IL_02cb
+00000000000042A9 488B1560840000       mov       rdx,[rel 0`C710h]
+00000000000042B0 488B12               mov       rdx,[rdx]
+00000000000042B3 488BCF               mov       rcx,rdi;
+00000000000042B6 4C8D1D937E0000       lea       r11,[rel 0`C150h]
+00000000000042BD 41FF13               call      qword [r11]
+; IL_02d6
+00000000000042C0 488B1551840000       mov       rdx,[rel 0`C718h]
+00000000000042C7 488B12               mov       rdx,[rdx]
+00000000000042CA 488BCF               mov       rcx,rdi;
+00000000000042CD 4C8D1D7C7E0000       lea       r11,[rel 0`C150h]
+00000000000042D4 41FF13               call      qword [r11]
+; IL_02e1
+00000000000042D7 488B1542840000       mov       rdx,[rel 0`C720h]
+00000000000042DE 488B12               mov       rdx,[rdx]
+00000000000042E1 488BCF               mov       rcx,rdi;
+00000000000042E4 4C8D1D657E0000       lea       r11,[rel 0`C150h]
+00000000000042EB 41FF13               call      qword [r11]
+; IL_02ec
+00000000000042EE 488B1533840000       mov       rdx,[rel 0`C728h]
+00000000000042F5 488B12               mov       rdx,[rdx]
+00000000000042F8 488BCF               mov       rcx,rdi;
+00000000000042FB 4C8D1D4E7E0000       lea       r11,[rel 0`C150h]
+0000000000004302 41FF13               call      qword [r11]
+; IL_02f7
+0000000000004305 488B1524840000       mov       rdx,[rel 0`C730h]
+000000000000430C 488B12               mov       rdx,[rdx]
+000000000000430F 488BCF               mov       rcx,rdi;
+0000000000004312 4C8D1D377E0000       lea       r11,[rel 0`C150h]
+0000000000004319 41FF13               call      qword [r11]
+; IL_0302
+000000000000431C 488B1515840000       mov       rdx,[rel 0`C738h]
+0000000000004323 488B12               mov       rdx,[rdx]
+0000000000004326 488BCF               mov       rcx,rdi;
+0000000000004329 4C8D1D207E0000       lea       r11,[rel 0`C150h]
+0000000000004330 41FF13               call      qword [r11]
+; IL_030d
+0000000000004333 488B1506840000       mov       rdx,[rel 0`C740h]
+000000000000433A 488B12               mov       rdx,[rdx]
+000000000000433D 488BCF               mov       rcx,rdi;
+0000000000004340 4C8D1D097E0000       lea       r11,[rel 0`C150h]
+0000000000004347 41FF13               call      qword [r11]
+; IL_0318
+000000000000434A 488B15F7830000       mov       rdx,[rel 0`C748h]
+0000000000004351 488B12               mov       rdx,[rdx]
+0000000000004354 488BCF               mov       rcx,rdi;
+0000000000004357 4C8D1DF27D0000       lea       r11,[rel 0`C150h]
+000000000000435E 41FF13               call      qword [r11]
+; IL_0323
+0000000000004361 488B15E8830000       mov       rdx,[rel 0`C750h]
+0000000000004368 488B12               mov       rdx,[rdx]
+000000000000436B 488BCF               mov       rcx,rdi;
+000000000000436E 4C8D1DDB7D0000       lea       r11,[rel 0`C150h]
+0000000000004375 41FF13               call      qword [r11]
+; IL_032e
+0000000000004378 488B15D9830000       mov       rdx,[rel 0`C758h]
+000000000000437F 488B12               mov       rdx,[rdx]
+0000000000004382 488BCF               mov       rcx,rdi;
+0000000000004385 4C8D1DC47D0000       lea       r11,[rel 0`C150h]
+000000000000438C 41FF13               call      qword [r11]
+; IL_0339
+000000000000438F 488B15CA830000       mov       rdx,[rel 0`C760h]
+0000000000004396 488B12               mov       rdx,[rdx]
+0000000000004399 488BCF               mov       rcx,rdi;
+000000000000439C 4C8D1DAD7D0000       lea       r11,[rel 0`C150h]
+00000000000043A3 41FF13               call      qword [r11]
+; IL_0344
+00000000000043A6 488B15BB830000       mov       rdx,[rel 0`C768h]
+00000000000043AD 488B12               mov       rdx,[rdx]
+00000000000043B0 488BCF               mov       rcx,rdi;
+00000000000043B3 4C8D1D967D0000       lea       r11,[rel 0`C150h]
+00000000000043BA 41FF13               call      qword [r11]
+; IL_034f
+00000000000043BD 488B15AC830000       mov       rdx,[rel 0`C770h]
+00000000000043C4 488B12               mov       rdx,[rdx]
+00000000000043C7 488BCF               mov       rcx,rdi;
+00000000000043CA 4C8D1D7F7D0000       lea       r11,[rel 0`C150h]
+00000000000043D1 41FF13               call      qword [r11]
+; IL_035a
+00000000000043D4 488B159D830000       mov       rdx,[rel 0`C778h]
+00000000000043DB 488B12               mov       rdx,[rdx]
+00000000000043DE 488BCF               mov       rcx,rdi;
+00000000000043E1 4C8D1D687D0000       lea       r11,[rel 0`C150h]
+00000000000043E8 41FF13               call      qword [r11]
+; IL_0365
+00000000000043EB 488B158E830000       mov       rdx,[rel 0`C780h]
+00000000000043F2 488B12               mov       rdx,[rdx]
+00000000000043F5 488BCF               mov       rcx,rdi;
+00000000000043F8 4C8D1D517D0000       lea       r11,[rel 0`C150h]
+00000000000043FF 41FF13               call      qword [r11]
+; IL_0370
+0000000000004402 488B157F830000       mov       rdx,[rel 0`C788h]
+0000000000004409 488B12               mov       rdx,[rdx]
+000000000000440C 488BCF               mov       rcx,rdi;
+000000000000440F 4C8D1D3A7D0000       lea       r11,[rel 0`C150h]
+0000000000004416 41FF13               call      qword [r11]
+; IL_037b
+0000000000004419 488BD5               mov       rdx,rbp
+000000000000441C 488BCF               mov       rcx,rdi;
+000000000000441F 4C8D1D2A7D0000       lea       r11,[rel 0`C150h]
+0000000000004426 41FF13               call      qword [r11]
+; IL_0386
+0000000000004429 488B1560830000       mov       rdx,[rel 0`C790h]
+0000000000004430 488B12               mov       rdx,[rdx]
+0000000000004433 488BCF               mov       rcx,rdi;
+0000000000004436 4C8D1D137D0000       lea       r11,[rel 0`C150h]
+000000000000443D 41FF13               call      qword [r11]
+; IL_0391
+0000000000004440 488B1551830000       mov       rdx,[rel 0`C798h]
+0000000000004447 488B12               mov       rdx,[rdx]
+000000000000444A 488BCF               mov       rcx,rdi;
+000000000000444D 4C8D1DFC7C0000       lea       r11,[rel 0`C150h]
+0000000000004454 41FF13               call      qword [r11]
+; IL_039c
+0000000000004457 488B1542830000       mov       rdx,[rel 0`C7A0h]
+000000000000445E 488B12               mov       rdx,[rdx]
+0000000000004461 488BCF               mov       rcx,rdi;
+0000000000004464 4C8D1DE57C0000       lea       r11,[rel 0`C150h]
+000000000000446B 41FF13               call      qword [r11]
+; IL_03a7
+000000000000446E 488B1533830000       mov       rdx,[rel 0`C7A8h]
+0000000000004475 488B12               mov       rdx,[rdx]
+0000000000004478 488BCF               mov       rcx,rdi;
+000000000000447B 4C8D1DCE7C0000       lea       r11,[rel 0`C150h]
+0000000000004482 41FF13               call      qword [r11]
+; IL_03b2
+0000000000004485 488B1524830000       mov       rdx,[rel 0`C7B0h]
+000000000000448C 488B12               mov       rdx,[rdx]
+000000000000448F 488BCF               mov       rcx,rdi;
+0000000000004492 4C8D1DB77C0000       lea       r11,[rel 0`C150h]
+0000000000004499 41FF13               call      qword [r11]
+; IL_03bd
+000000000000449C 488B1515830000       mov       rdx,[rel 0`C7B8h]
+00000000000044A3 488B12               mov       rdx,[rdx]
+00000000000044A6 488BCF               mov       rcx,rdi;
+00000000000044A9 4C8D1DA07C0000       lea       r11,[rel 0`C150h]
+00000000000044B0 41FF13               call      qword [r11]
+; IL_03c8
+00000000000044B3 488B1506830000       mov       rdx,[rel 0`C7C0h]
+00000000000044BA 488B12               mov       rdx,[rdx]
+00000000000044BD 488BCF               mov       rcx,rdi;
+00000000000044C0 4C8D1D897C0000       lea       r11,[rel 0`C150h]
+00000000000044C7 41FF13               call      qword [r11]
+; IL_03d4
+00000000000044CA FF15287D0000         call      qword [rel 0`C1F8h] ; System.Collections.Generic.List`1<string> (NEW_OBJECT)
+00000000000044D0 488BE8               mov       rbp,rax
+00000000000044D3 488BCD               mov       rcx,rbp;
+00000000000044D6 FF154C7E0000         call      qword [rel 0`C328h] ; void System.Collections.Generic.List`1<__Canon>..ctor() (METHOD_ENTRY)
+; IL_03da
+00000000000044DC 4533F6               xor       r14d,r14d
+; IL_0409
+00000000000044DF 488BCE               mov       rcx,rsi;; rsi = Local 0
+00000000000044E2 4C8D1D577C0000       lea       r11,[rel 0`C140h]
+00000000000044E9 41FF13               call      qword [r11]
+00000000000044EC 85C0                 test      eax,eax
+00000000000044EE 7E64                 jle       short 0000`0000`0000`4554h
+00000000000044F0 488BCE               mov       rcx,rsi;; rsi = Local 0
+00000000000044F3 418BD6               mov       edx,r14d
+00000000000044F6 4C8D1D4B7C0000       lea       r11,[rel 0`C148h]
+00000000000044FD 41FF13               call      qword [r11]
+0000000000004500 4C8BF8               mov       r15,rax
+0000000000004503 488BCF               mov       rcx,rdi;; rdi = Local 1
+0000000000004506 4C8D1D337C0000       lea       r11,[rel 0`C140h]
+000000000000450D 41FF13               call      qword [r11]
+0000000000004510 412BC6               sub       eax,r14d
+0000000000004513 8D50FF               lea       edx,[rax-1]
+0000000000004516 488BCF               mov       rcx,rdi;; rdi = Local 1
+0000000000004519 4C8D1D287C0000       lea       r11,[rel 0`C148h]
+0000000000004520 41FF13               call      qword [r11]
+0000000000004523 488BD0               mov       rdx,rax
+0000000000004526 498BCF               mov       rcx,r15;
+0000000000004529 FF15417D0000         call      qword [rel 0`C270h] ; string [System.Runtime]System.String::Concat(string, string)
+000000000000452F 488BD0               mov       rdx,rax
+0000000000004532 488BCD               mov       rcx,rbp;; rbp = Local 2
+0000000000004535 4C8D1D147C0000       lea       r11,[rel 0`C150h]
+000000000000453C 41FF13               call      qword [r11]
+; IL_0403
+000000000000453F 41FFC6               inc       r14d; r14 = Local 5
+; IL_0409
+0000000000004542 488BCE               mov       rcx,rsi;; rsi = Local 0
+0000000000004545 4C8D1DF47B0000       lea       r11,[rel 0`C140h]
+000000000000454C 41FF13               call      qword [r11]
+000000000000454F 413BC6               cmp       eax,r14d
+0000000000004552 7F9C                 jg        short 0000`0000`0000`44F0h
+; IL_0413
+0000000000004554 488B0D6D820000       mov       rcx,[rel 0`C7C8h];
+000000000000455B 488B31               mov       rsi,[rcx];;
+000000000000455E 488BCE               mov       rcx,rsi;;
+0000000000004561 488BD5               mov       rdx,rbp;
+0000000000004564 FF150E7D0000         call      qword [rel 0`C278h] ; string [System.Runtime]System.String::Join(string, class [System.Runtime]System.Collections.Generic.IEnumerable`1<string>) // 이상한 16진수 숫자들 join함 (고정)
+000000000000456A 488BC8               mov       rcx,rax;
+000000000000456D FF157D7E0000         call      qword [rel 0`C3F0h] ; string Trompe_Loeil.M::ComputeSha256Hash(string) // join한 문자열로 sha256 계산
+0000000000004573 488BF8               mov       rdi,rax; // 비교대상이 여기에서 세팅됨
+; IL_0424
+0000000000004576 FF157C7C0000         call      qword [rel 0`C1F8h] ; System.Collections.Generic.List`1<string> (NEW_OBJECT)
+000000000000457C 488BE8               mov       rbp,rax;
+000000000000457F 488BCD               mov       rcx,rbp;;
+0000000000004582 FF15A07D0000         call      qword [rel 0`C328h] ; void System.Collections.Generic.List`1<__Canon>..ctor() (METHOD_ENTRY)
+; IL_042e
+0000000000004588 4533F6               xor       r14d,r14d;
+
+
+
+
+; IL_045c
+000000000000458B 448B7B08             mov       r15d,[rbx+8]; rbx = Local 6 // user input
+000000000000458F 4585FF               test      r15d,r15d
+0000000000004592 7E47                 jle       short 0000`0000`0000`45DBh // join something, sha256, return
+
+
+; IL_0433
+0000000000004594 418BCE               mov       ecx,r14d;
+0000000000004597 0FB74C4B0C           movzx     ecx,word [rbx+rcx*2+0Ch];; rbx = Local 6; // input에서 한 글자씩 가져옴
+000000000000459C 894C2420             mov       [rsp+20h],ecx
+
+
+; IL_043e
+00000000000045A0 488D4C2420           lea       rcx,[rsp+20h];
+00000000000045A5 FF15E57C0000         call      qword [rel 0`C290h] ; instance string [System.Runtime]System.Char::ToString()
+00000000000045AB 488BC8               mov       rcx,rax;
+00000000000045AE FF15747E0000         call      qword [rel 0`C428h] ; class Trompe_Loeil.C Trompe_Loeil.S::F7(string) // ?
+00000000000045B4 488BC8               mov       rcx,rax;
+00000000000045B7 4C8D1DDA7A0000       lea       r11,[rel 0`C098h] // hex to string
+00000000000045BE 3909                 cmp       [rcx],ecx;
+00000000000045C0 41FF13               call      qword [r11]
+00000000000045C3 488BD0               mov       rdx,rax
+00000000000045C6 488BCD               mov       rcx,rbp;; rbp = Local 4
+00000000000045C9 4C8D1D807B0000       lea       r11,[rel 0`C150h]
+00000000000045D0 41FF13               call      qword [r11]
+; IL_0456
+00000000000045D3 41FFC6               inc       r14d; r14 = Local 7
+; IL_045c
+00000000000045D6 453BFE               cmp       r15d,r14d
+00000000000045D9 7FB9                 jg        short 0000`0000`0000`4594h // 입력 길이만큼 loop
+; IL_0467
+00000000000045DB 488BCE               mov       rcx,rsi;;
+00000000000045DE 488BD5               mov       rdx,rbp;
+00000000000045E1 FF15917C0000         call      qword [rel 0`C278h] ; string [System.Runtime]System.String::Join(string, class [System.Runtime]System.Collections.Generic.IEnumerable`1<string>) // 내 입력의 hash값을 join (0x~~0x~~)
+00000000000045E7 488BC8               mov       rcx,rax;
+00000000000045EA FF15007E0000         call      qword [rel 0`C3F0h] ; string Trompe_Loeil.M::ComputeSha256Hash(string) // join한 문자열로 sha256 계산
+00000000000045F0 488BC8               mov       rcx,rax;
+00000000000045F3 488BD7               mov       rdx,rdi; // rdx는 처음에 ComputeSha256Hash로 계산한 값 (고정)
+00000000000045F6 4C8D1DA37A0000       lea       r11,[rel 0`C0A0h]
+00000000000045FD 3909                 cmp       [rcx],ecx;
+00000000000045FF 41FF13               call      qword [r11] // stepinto로 들어가보니 rcx랑 rdx랑 비교함
+; Epilog
+0000000000004602 90                   nop
+0000000000004603 4883C428             add       rsp,28h
+0000000000004607 5B                   pop       rbx;
+0000000000004608 5D                   pop       rbp;
+0000000000004609 5E                   pop       rsi;
+000000000000460A 5F                   pop       rdi;
+000000000000460B 415E                 pop       r14;
+000000000000460D 415F                 pop       r15
+000000000000460F C3                   ret
+
