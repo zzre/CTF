@@ -16,3 +16,7 @@
 - [vikeCTF 2024](./2024/vikectf/)
 - [Cyber Apocalypse 2024: Hacker Royale](./2024/htb_ca/)
 - [KalmarCTF 2024](./2024/kalmar/)
+- [UTCTF 2024](./2024/utctf/)
+- [SpartanCTF 2024](./2024/spartan/) :2nd_place_medal:
+- [UMassCTF 2024](./2024/umass/)
+- [TBTL CTF 2024](./2024/tbtl/) :1st_place_medal:
