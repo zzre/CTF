@@ -21,3 +21,8 @@
 - [UMassCTF 2024](./2024/umass/)
 - [TBTL CTF 2024](./2024/tbtl/) :1st_place_medal: as DeadSec
 - [BYUCTF 2024](./2024/byuctf/)
+- [Akasec CTF 2024](./2024/akasec/)
+- [UIUCTF 2024](./2024/uiuctf/)
+- [DownUnderCTF 2024](./2024/ductf/)
+- [ImaginaryCTF 2024](./2024/imaginary/)
+- [TFC CTF 2024](./2024/tfcctf/)
