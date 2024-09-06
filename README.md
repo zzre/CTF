@@ -26,3 +26,5 @@
 - [DownUnderCTF 2024](./2024/ductf/)
 - [ImaginaryCTF 2024](./2024/imaginary/)
 - [TFC CTF 2024](./2024/tfcctf/)
+- [SekaiCTF 2024](./2024/sekai/)
+- [BlackHat MEA CTF Qualification 2024](./2024/bhmea_quals/)
